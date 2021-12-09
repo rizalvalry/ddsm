@@ -1,0 +1,235 @@
+.elementor-305 .elementor-element.elementor-element-3bf34cc>.elementor-container {
+    min-height: 300px;
+}
+
+.elementor-305 .elementor-element.elementor-element-3bf34cc>.elementor-container:after {
+    content: "";
+    min-height: inherit;
+}
+
+.elementor-305 .elementor-element.elementor-element-0f2424c {
+    text-align: center;
+}
+
+.elementor-305 .elementor-element.elementor-element-0f2424c.elementor-widget-heading .elementor-heading-title {
+    color: #000000;
+}
+
+.elementor-305 .elementor-element.elementor-element-0f2424c .elementor-heading-title {
+    font-size: 36px;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.5em;
+}
+
+.elementor-305 .elementor-element.elementor-element-e0400c4 .elementor-text-editor {
+    text-align: center;
+}
+
+.elementor-305 .elementor-element.elementor-element-e0400c4 {
+    color: #000000;
+}
+
+.elementor-305 .elementor-element.elementor-element-3bf34cc:not(.elementor-motion-effects-element-type-background),
+.elementor-305 .elementor-element.elementor-element-3bf34cc>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+    background-image: url("../../../../../13.229.157.227_5050/wp-content/uploads/2019/04/request-quote-header-1.png");
+    background-size: cover;
+}
+
+.elementor-305 .elementor-element.elementor-element-3bf34cc>.elementor-background-overlay {
+    background-color: transparent;
+    background-image: linear-gradient(180deg, #ffffff 0%, rgba(242, 41, 91, 0) 100%);
+    opacity: 1;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+
+.elementor-305 .elementor-element.elementor-element-3bf34cc {
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    padding: 0px 0px 0px 0px;
+}
+
+.elementor-305 .elementor-element.elementor-element-37f4aef.elementor-view-stacked .elementor-icon {
+    background-color: #000000;
+}
+
+.elementor-305 .elementor-element.elementor-element-37f4aef.elementor-view-framed .elementor-icon,
+.elementor-305 .elementor-element.elementor-element-37f4aef.elementor-view-default .elementor-icon {
+    color: #000000;
+    border-color: #000000;
+}
+
+.elementor-305 .elementor-element.elementor-element-37f4aef.elementor-position-right .elementor-icon-box-icon {
+    margin-left: 15px;
+}
+
+.elementor-305 .elementor-element.elementor-element-37f4aef.elementor-position-left .elementor-icon-box-icon {
+    margin-right: 15px;
+}
+
+.elementor-305 .elementor-element.elementor-element-37f4aef.elementor-position-top .elementor-icon-box-icon {
+    margin-bottom: 15px;
+}
+
+.elementor-305 .elementor-element.elementor-element-37f4aef .elementor-icon {
+    font-size: 30px;
+}
+
+.elementor-305 .elementor-element.elementor-element-37f4aef .elementor-icon i {
+    transform: rotate(0deg);
+}
+
+.elementor-305 .elementor-element.elementor-element-37f4aef .elementor-icon-box-wrapper {
+    text-align: left;
+}
+
+.elementor-305 .elementor-element.elementor-element-37f4aef .elementor-icon-box-content .elementor-icon-box-description {
+    color: #000000;
+    font-size: 24px;
+}
+
+.elementor-305 .elementor-element.elementor-element-442395c {
+    padding: 50px 0px 0px 0px;
+}
+
+.elementor-305 .elementor-element.elementor-element-1054aa9 .raven-field-group {
+    padding-left: calc( 11px / 2);
+    padding-right: calc( 11px / 2);
+    margin-bottom: 16px;
+}
+
+.elementor-305 .elementor-element.elementor-element-1054aa9 .raven-form {
+    margin-left: calc( -11px / 2);
+    margin-right: calc( -11px / 2);
+}
+
+.elementor-305 .elementor-element.elementor-element-1054aa9 .raven-field-label {
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 13px;
+}
+
+.elementor-305 .elementor-element.elementor-element-1054aa9 .raven-field {
+    background-color: #f9f9f9;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: #e5e5e5;
+    border-radius: 0px 0px 0px 0px;
+    padding: 15px 15px 15px 15px;
+}
+
+.elementor-305 .elementor-element.elementor-element-1054aa9 .raven-field::-webkit-input-placeholder {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.elementor-305 .elementor-element.elementor-element-1054aa9 .raven-field::-ms-input-placeholder {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.elementor-305 .elementor-element.elementor-element-1054aa9 .raven-field::placeholder {
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 13px;
+}
+
+.elementor-305 .elementor-element.elementor-element-1054aa9 .raven-submit-button {
+    height: 50px;
+    color: #ffffff;
+    font-size: 12px;
+    letter-spacing: 1px;
+    background-color: #19ac54;
+    background-image: none;
+    border-radius: 8px 8px 8px 8px;
+}
+
+.elementor-305 .elementor-element.elementor-element-422378f {
+    padding: 0px 0px 100px 0px;
+}
+
+@media(max-width:767px) {
+    .elementor-305 .elementor-element.elementor-element-37f4aef .elementor-icon-box-icon {
+        margin-bottom: 15px;
+    }
+}
+
+.contact-form .raven-submit-button {
+    width: 130px;
+}
+
+.p-no-margin {
+    margin: 0 !important;
+}
+
+.custom-icon .elementor-icon-box-title {
+    margin: 0;
+}
+
+
+/*form*/
+
+.form-col-50 {
+    width: 50%;
+}
+
+.form-col-100 {
+    width: 100%;
+}
+
+.form-column-wrap {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.form-field-group {
+    padding-left: calc( 11px / 2);
+    padding-right: calc( 11px / 2);
+    margin-bottom: 16px;
+}
+
+.form-field-label,
+.form-field::placeholder {
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 13px;
+}
+
+.form-field {
+    width: 100%;
+    background-color: #f9f9f9;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: #e5e5e5;
+    border-radius: 0px 0px 0px 0px;
+    padding: 15px 15px 15px 15px;
+    color: #55595c;
+    font-size: 1rem;
+}
+
+.form-submit-btn {
+    height: 50px;
+    color: #ffffff;
+    font-size: 12px;
+    letter-spacing: 1px;
+    background-color: #19ac54;
+    background-image: none;
+    border-radius: 8px 8px 8px 8px;
+    width: 130px;
+    margin-bottom: 0;
+    padding: .67rem 1.2rem;
+    border: none;
+}
+
+.btn-submit {
+    text-align: right;
+}
+
+.btn-submit .ajax-loader {
+    display: none !important;
+}
+
+@media only screen and (max-width: 480px) {
+    .elementor-icon-box-description,
+    .elementor-icon-box-icon {
+        text-align: center;
+    }
+    .custom-icon .elementor-icon-box-wrapper {
+        display: flex;
+    }
+}

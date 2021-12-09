@@ -1,0 +1,20 @@
+.elementor-312 .elementor-element.elementor-element-3bf34cc > .elementor-container{min-height:300px;}.elementor-312 .elementor-element.elementor-element-3bf34cc > .elementor-container:after{content:"";min-height:inherit;}.elementor-312 .elementor-element.elementor-element-0f2424c{text-align:center;}.elementor-312 .elementor-element.elementor-element-0f2424c.elementor-widget-heading .elementor-heading-title{color:#000000;}.elementor-312 .elementor-element.elementor-element-0f2424c .elementor-heading-title{font-size:36px;font-weight:bold;text-transform:uppercase;line-height:1.5em;}.elementor-312 .elementor-element.elementor-element-e0400c4 .elementor-text-editor{text-align:center;}.elementor-312 .elementor-element.elementor-element-e0400c4{color:#000000;}.elementor-312 .elementor-element.elementor-element-3bf34cc:not(.elementor-motion-effects-element-type-background), .elementor-312 .elementor-element.elementor-element-3bf34cc > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-image:url("../../2019/04/header-network.jpg");background-position:center center;background-size:cover;}.elementor-312 .elementor-element.elementor-element-3bf34cc > .elementor-background-overlay{background-color:transparent;background-image:linear-gradient(180deg, #ffffff 0%, rgba(242,41,91,0) 100%);opacity:1;mix-blend-mode:screen;transition:background 0.3s, border-radius 0.3s, opacity 0.3s;}.elementor-312 .elementor-element.elementor-element-3bf34cc .elementor-background-overlay{filter:brightness( 200% ) contrast( 200% ) saturate( 100% ) blur( 10px ) hue-rotate( 0deg );}.elementor-312 .elementor-element.elementor-element-3bf34cc{transition:background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;padding:0px 0px 0px 0px;}.elementor-312 .elementor-element.elementor-element-9a63b36 .gallery-item{padding:0 20px 20px 0;}.elementor-312 .elementor-element.elementor-element-9a63b36 .gallery{margin:0 -20px -20px 0;}.elementor-312 .elementor-element.elementor-element-9a63b36 .gallery-item .gallery-caption{text-align:center;}.elementor-312 .elementor-element.elementor-element-cffcda0{padding:100px 0px 100px 0px;}.p-no-margin {
+    margin: 0 !important;
+}
+.custom-link a {
+    color: #0000EE !important
+}
+.custom-gallery .gallery-icon img {
+    height: 89px !important;
+    width: auto !important;
+}
+.custom-gallery .gallery-item {
+    max-width: max-content !important;
+}
+
+@media only screen and (max-width: 480px) {
+    .gallery-size-full {
+        flex-direction: column;
+        align-items: center;
+    }
+}
