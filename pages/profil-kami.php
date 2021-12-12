@@ -13,32 +13,32 @@
             padding: 0 !important;
         }
     </style>
-    <link rel='stylesheet' id='wp-block-library-css' href='http://localhost/ddsm.id/wp-includes/css/dist/block-library/style.min34b1.css' type='text/css' media='all' />
-    <link rel='stylesheet' id='contact-form-7-css' href='http://localhost/ddsm.id/wp-content/plugins/contact-form-7/includes/css/styles3c21.css' type='text/css' media='all' />
-    <link rel='stylesheet' id='jupiterx-css' href='http://localhost/ddsm.id/wp-content/uploads/jupiterx/compiler/jupiterx/b22a5b97359.css' type='text/css' media='all' />
-    <link rel='stylesheet' id='cherry-handler-css-css' href='http://localhost/ddsm.id/wp-content/plugins/jet-elements/cherry-framework/modules/cherry-handler/assets/css/cherry-handler-styles.min8c67.css' type='text/css' media='all' />
-    <link rel='stylesheet' id='jet-elements-css' href='http://localhost/ddsm.id/wp-content/plugins/jet-elements/assets/css/jet-elementsedf9.css' type='text/css' media='all' />
-    <link rel='stylesheet' id='jet-elements-skin-css' href='http://localhost/ddsm.id/wp-content/plugins/jet-elements/assets/css/jet-elements-skinedf9.css' type='text/css' media='all' />
-    <link rel='stylesheet' id='elementor-icons-css' href='http://localhost/ddsm.id/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.minb2f9.css' type='text/css' media='all' />
-    <link rel='stylesheet' id='font-awesome-css' href='http://localhost/ddsm.id/wp-content/plugins/elementor/assets/lib/font-awesome/css/font-awesome.min1849.css' type='text/css' media='all' />
-    <link rel='stylesheet' id='elementor-animations-css' href='http://localhost/ddsm.id/wp-content/plugins/elementor/assets/lib/animations/animations.min355d.css' type='text/css' media='all' />
-    <link rel='stylesheet' id='elementor-frontend-css' href='http://localhost/ddsm.id/wp-content/plugins/elementor/assets/css/frontend.min355d.css' type='text/css' media='all' />
-    <link rel='stylesheet' id='raven-frontend-css' href='http://localhost/ddsm.id/wp-content/plugins/raven/assets/css/frontend.minf488.css' type='text/css' media='all' />
-    <link rel='stylesheet' id='elementor-global-css' href='http://localhost/ddsm.id/wp-content/uploads/elementor/css/global3efd.css' type='text/css' media='all' />
-    <link rel='stylesheet' id='elementor-post-268-css' href='http://localhost/ddsm.id/wp-content/uploads/elementor/css/post-268176d.css' type='text/css' media='all' />
-    <link rel='stylesheet' id='popup-maker-site-css' href='http://localhost/ddsm.id/wp-content/uploads/pum/pum-site-styles809a.css?generated=1574326896&amp;ver=1.8.3' type='text/css' media='all' />
-    <link rel='stylesheet' id='elementor-post-87-css' href='http://localhost/ddsm.id/wp-content/uploads/elementor/css/post-87ca65.css' type='text/css' media='all' />
-    <link rel='stylesheet' id='elementor-post-102-css' href='http://localhost/ddsm.id/wp-content/uploads/elementor/css/post-1025640.css' type='text/css' media='all' />
-    <script type='text/javascript' src='http://localhost/ddsm.id/wp-includes/js/jquery/jqueryb8ff.js'></script>
-    <script type='text/javascript' src='http://localhost/ddsm.id/wp-includes/js/jquery/jquery-migrate.min330a.js'></script>
-    <link rel='https://api.w.org/' href='http://localhost/ddsm.id/wp-json/index.html' />
+    <link rel='stylesheet' id='wp-block-library-css' href='<?= $row00['alamat_web']; ?>wp-includes/css/dist/block-library/style.min34b1.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='contact-form-7-css' href='<?= $row00['alamat_web']; ?>wp-content/plugins/contact-form-7/includes/css/styles3c21.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='jupiterx-css' href='<?= $row00['alamat_web']; ?>wp-content/uploads/jupiterx/compiler/jupiterx/b22a5b97359.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='cherry-handler-css-css' href='<?= $row00['alamat_web']; ?>wp-content/plugins/jet-elements/cherry-framework/modules/cherry-handler/assets/css/cherry-handler-styles.min8c67.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='jet-elements-css' href='<?= $row00['alamat_web']; ?>wp-content/plugins/jet-elements/assets/css/jet-elementsedf9.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='jet-elements-skin-css' href='<?= $row00['alamat_web']; ?>wp-content/plugins/jet-elements/assets/css/jet-elements-skinedf9.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='elementor-icons-css' href='<?= $row00['alamat_web']; ?>wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.minb2f9.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='font-awesome-css' href='<?= $row00['alamat_web']; ?>wp-content/plugins/elementor/assets/lib/font-awesome/css/font-awesome.min1849.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='elementor-animations-css' href='<?= $row00['alamat_web']; ?>wp-content/plugins/elementor/assets/lib/animations/animations.min355d.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='elementor-frontend-css' href='<?= $row00['alamat_web']; ?>wp-content/plugins/elementor/assets/css/frontend.min355d.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='raven-frontend-css' href='<?= $row00['alamat_web']; ?>wp-content/plugins/raven/assets/css/frontend.minf488.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='elementor-global-css' href='<?= $row00['alamat_web']; ?>wp-content/uploads/elementor/css/global3efd.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='elementor-post-268-css' href='<?= $row00['alamat_web']; ?>wp-content/uploads/elementor/css/post-268176d.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='popup-maker-site-css' href='<?= $row00['alamat_web']; ?>wp-content/uploads/pum/pum-site-styles809a.css?generated=1574326896&amp;ver=1.8.3' type='text/css' media='all' />
+    <link rel='stylesheet' id='elementor-post-87-css' href='<?= $row00['alamat_web']; ?>wp-content/uploads/elementor/css/post-87ca65.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='elementor-post-102-css' href='<?= $row00['alamat_web']; ?>wp-content/uploads/elementor/css/post-1025640.css' type='text/css' media='all' />
+    <script type='text/javascript' src='<?= $row00['alamat_web']; ?>wp-includes/js/jquery/jqueryb8ff.js'></script>
+    <script type='text/javascript' src='<?= $row00['alamat_web']; ?>wp-includes/js/jquery/jquery-migrate.min330a.js'></script>
+    <link rel='https://api.w.org/' href='<?= $row00['alamat_web']; ?>wp-json/index.html' />
     <link rel="EditURI" type="application/rsd+xml" title="RSD" href="<?= $row00['alamat_web']; ?>xmlrpc0db0.php?rsd" />
-    <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://localhost/ddsm.id/wp-includes/wlwmanifest.xml" />
+    <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="<?= $row00['alamat_web']; ?>wp-includes/wlwmanifest.xml" />
     <meta name="generator" content="WordPress 5.1.11" />
     <link rel="canonical" href="index.html" />
     <link rel='shortlink' href='<?= $row00['alamat_web']; ?>indexc524.html?p=268' />
-    <link rel="alternate" type="application/json+oembed" href="http://localhost/ddsm.id/wp-json/oembed/1.0/embeda402.json?url=http%3A%2F%2Fwww.transpac-logistics.co.id%2Fabout-us-2%2F" />
-    <link rel="alternate" type="text/xml+oembed" href="http://localhost/ddsm.id/wp-json/oembed/1.0/embed4832?url=http%3A%2F%2Fwww.transpac-logistics.co.id%2Fabout-us-2%2F&amp;format=xml" />
+    <link rel="alternate" type="application/json+oembed" href="<?= $row00['alamat_web']; ?>wp-json/oembed/1.0/embeda402.json?url=http%3A%2F%2Fwww.transpac-logistics.co.id%2Fabout-us-2%2F" />
+    <link rel="alternate" type="text/xml+oembed" href="<?= $row00['alamat_web']; ?>wp-json/oembed/1.0/embed4832?url=http%3A%2F%2Fwww.transpac-logistics.co.id%2Fabout-us-2%2F&amp;format=xml" />
     <style type="text/css">
         .recentcomments a {
             display: inline !important;
@@ -47,9 +47,9 @@
         }
     </style>
     <link rel="pingback" href="<?= $row00['alamat_web']; ?>xmlrpc.php">
-    <link rel="icon" href="http://localhost/ddsm.id/wp-content/uploads/2019/03/cropped-logo-trans-paific-02-32x32.png" sizes="32x32" />
-    <link rel="icon" href="http://localhost/ddsm.id/wp-content/uploads/2019/03/cropped-logo-trans-paific-02-192x192.png" sizes="192x192" />
-    <link rel="apple-touch-icon-precomposed" href="http://localhost/ddsm.id/wp-content/uploads/2019/03/cropped-logo-trans-paific-02-180x180.png" />
+    <link rel="icon" href="<?= $row00['alamat_web']; ?>wp-content/uploads/2019/03/cropped-logo-trans-paific-02-32x32.png" sizes="32x32" />
+    <link rel="icon" href="<?= $row00['alamat_web']; ?>wp-content/uploads/2019/03/cropped-logo-trans-paific-02-192x192.png" sizes="192x192" />
+    <link rel="apple-touch-icon-precomposed" href="<?= $row00['alamat_web']; ?>wp-content/uploads/2019/03/cropped-logo-trans-paific-02-180x180.png" />
     <meta name="msapplication-TileImage" content="http://www.transpac-logistics.co.id/wp-content/uploads/2019/03/cropped-logo-trans-paific-02-270x270.png" />
     <style type="text/css" id="wp-custom-css">
         /* #nav-menu .custom-nav, #sticky-nav-menu .custom-nav {
@@ -69,7 +69,7 @@
         .custom-nav .raven-menu-item:before {
             /* 	content: "\f2f6"; */
             content: "";
-            background-image: url(http://localhost/ddsm.id/wp-content/uploads/2019/04/login-2.png);
+            background-image: url(<?= $row00['alamat_web']; ?>wp-content/uploads/2019/04/login-2.png);
             width: 20px;
             height: 20px;
             background-size: contain;
@@ -139,7 +139,7 @@
         }
         
         .Icon-Mail {
-            background-image: url('http://localhost/ddsm.id/wp-content/uploads/2019/11/mail_outline-24px.png');
+            background-image: url('<?= $row00['alamat_web']; ?>wp-content/uploads/2019/11/mail_outline-24px.png');
             width: 20px;
             height: 20px;
             background-size: contain;
@@ -555,7 +555,7 @@ ol.organizational-chart > li > ol > li > ol > li > ol > li > ol > li > div {
                                                                                         <div class="elementor-image-carousel-wrapper elementor-slider" dir="ltr">
                                                                                             <div class="elementor-image-carousel image-stretch">
                                                                                                 <div class="slide">
-                                                                                                    <figure class="slide-inner"><img class="slide-image" src="http://localhost/ddsm.id/wp-content/uploads/elementor/thumbs/bitmap1-pg4ap56qcz1whltqua9dfwisfqtj1xo057pzmw87js.jpg" alt="bitmap(1)" /></figure>
+                                                                                                    <figure class="slide-inner"><img class="slide-image" src="<?= $row00['alamat_web']; ?>wp-content/uploads/elementor/thumbs/bitmap1-pg4ap56qcz1whltqua9dfwisfqtj1xo057pzmw87js.jpg" alt="bitmap(1)" /></figure>
                                                                                                 </div>
 
                                                                                             </div>
