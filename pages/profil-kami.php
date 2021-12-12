@@ -644,7 +644,7 @@ ol.organizational-chart > li > ol > li > ol > li > ol > li > ol > li > div {
                                                                             <div class="elementor-widget-wrap">
                                                                                 <div class="elementor-element elementor-element-5666634 elementor-widget elementor-widget-heading" data-id="5666634" data-element_type="widget" data-widget_type="heading.default">
                                                                                     <div class="elementor-widget-container">
-                                                                                        <h3 class="elementor-heading-title elementor-size-default">Our Team</h3>
+                                                                                        <h3 class="elementor-heading-title elementor-size-default"><strong>Our Team</strong></h3>
                                                                                     </div>
                                                                                 </div>
                                                                                 <div class="elementor-element elementor-element-4b53f43 elementor-widget elementor-widget-text-editor" data-id="4b53f43" data-element_type="widget" data-widget_type="text-editor.default">
