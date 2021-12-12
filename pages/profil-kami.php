@@ -810,7 +810,7 @@ ol.organizational-chart > li > ol > li > ol > li > ol > li > ol > li > div {
             document.body.className = document.body.className.replace('no-js', 'js');
         }());
     </script>
-    <link rel='stylesheet' id='elementor-post-99-css' href='../wp-content/uploads/elementor/css/post-999d20.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='elementor-post-99-css' href='../wp-content/uploads/elementor/css/post-999d20.css?ver=1573547849' type='text/css' media='all' />
     <script type='text/javascript'>
         /* <![CDATA[ */
         var wp_load_style = ["wp-block-library.css", "contact-form-7.html", "jupiterx.html", "cherry-handler-css.html", "jet-elements.html", "jet-elements-skin.html", "elementor-icons.html", "font-awesome.html", "elementor-animations.html", "elementor-frontend.html", "raven-frontend.html", "elementor-global.html", "elementor-post-268.html", "popup-maker-site.html", "elementor-post-87.html", "elementor-post-102.css"];
@@ -822,7 +822,7 @@ ol.organizational-chart > li > ol > li > ol > li > ol > li > ol > li > div {
         };
         /* ]]> */
     </script>
-    <script type='text/javascript' src='<?= $row00['alamat_web']; ?>wp-content/plugins/jet-elements/cherry-framework/modules/cherry-js-core/assets/js/min/cherry-js-core.min8c67.js'></script>
+    <script type='text/javascript' src='../wp-content/plugins/jet-elements/cherry-framework/modules/cherry-js-core/assets/js/min/cherry-js-core.min8c67.js?ver=1.5.11'></script>
     <script type='text/javascript'>
         /* <![CDATA[ */
         var wpcf7 = {
@@ -833,13 +833,33 @@ ol.organizational-chart > li > ol > li > ol > li > ol > li > ol > li > div {
         };
         /* ]]> */
     </script>
-    <script type='text/javascript' src='<?= $row00['alamat_web']; ?>wp-content/plugins/contact-form-7/includes/js/scripts3c21.js'></script>
-    <script type='text/javascript' src='<?= $row00['alamat_web']; ?>wp-includes/js/underscore.min4511.js'></script>
-    <script type='text/javascript' src='../wp-content/uploads/jupiterx/compiler/jupiterx/9f110407359.js'></script>
-
-    <script type='text/javascript' src='<?= $row00['alamat_web']; ?>wp-content/plugins/jet-elements/cherry-framework/modules/cherry-handler/assets/js/min/cherry-handler.min8c67.js'></script>
-    <script type='text/javascript' src='<?= $row00['alamat_web']; ?>wp-includes/js/jquery/ui/core.mine899.js'></script>
-    <script type='text/javascript' src='<?= $row00['alamat_web']; ?>wp-includes/js/jquery/ui/position.mine899.js'></script>
+    <script type='text/javascript' src='../wp-content/plugins/contact-form-7/includes/js/scripts3c21.js?ver=5.1.1'></script>
+    <script type='text/javascript' src='../wp-includes/js/underscore.min4511.js?ver=1.8.3'></script>
+    <script type='text/javascript' src='../wp-content/uploads/jupiterx/compiler/jupiterx/9f110407359.js?ver=1.2.0'></script>
+    <script type='text/javascript'>
+        /* <![CDATA[ */
+        var jet_subscribe_form_ajax = {
+            "action": "jet_subscribe_form_ajax",
+            "nonce": "f2f5c5e21e",
+            "type": "POST",
+            "data_type": "json",
+            "is_public": "true",
+            "sys_messages": {
+                "invalid_base_data": "Unable to process the request without nonce or server error",
+                "no_right": "No right for this action",
+                "invalid_nonce": "Stop CHEATING!!!",
+                "access_is_allowed": "Access is allowed",
+                "wait_processing": "Please wait, processing the previous request"
+            }
+        };
+        var cherryHandlerAjaxUrl = {
+            "ajax_url": "http:\/\/www.transpac-logistics.co.id\/wp-admin\/admin-ajax.php"
+        };
+        /* ]]> */
+    </script>
+    <script type='text/javascript' src='../wp-content/plugins/jet-elements/cherry-framework/modules/cherry-handler/assets/js/min/cherry-handler.min8c67.js?ver=1.5.11'></script>
+    <script type='text/javascript' src='../wp-includes/js/jquery/ui/core.mine899.js?ver=1.11.4'></script>
+    <script type='text/javascript' src='../wp-includes/js/jquery/ui/position.mine899.js?ver=1.11.4'></script>
     <script type='text/javascript'>
         /* <![CDATA[ */
         var pum_vars = {
@@ -896,17 +916,543 @@ ol.organizational-chart > li > ol > li > ol > li > ol > li > ol > li > div {
             "ajaxurl": "http:\/\/www.transpac-logistics.co.id\/wp-admin\/admin-ajax.php",
             "message_position": "top"
         };
-      
+        var pum_popups = {
+            "pum-949": {
+                "disable_on_mobile": false,
+                "disable_on_tablet": false,
+                "custom_height_auto": false,
+                "scrollable_content": false,
+                "position_from_trigger": false,
+                "position_fixed": false,
+                "overlay_disabled": false,
+                "stackable": false,
+                "disable_reposition": false,
+                "close_on_overlay_click": false,
+                "close_on_esc_press": false,
+                "close_on_f4_press": false,
+                "disable_form_reopen": false,
+                "disable_accessibility": false,
+                "theme_id": "910",
+                "size": "medium",
+                "responsive_min_width": "0%",
+                "responsive_max_width": "100%",
+                "custom_width": "640px",
+                "custom_height": "380px",
+                "animation_type": "fade",
+                "animation_speed": "350",
+                "animation_origin": "center top",
+                "location": "center top",
+                "position_top": "100",
+                "position_bottom": "0",
+                "position_left": "0",
+                "position_right": "0",
+                "zindex": "1999999999",
+                "close_button_delay": "0",
+                "triggers": [],
+                "cookies": [],
+                "theme_slug": "custom-popup",
+                "id": 949,
+                "slug": "nias-marlina-2"
+            },
+            "pum-1266": {
+                "disable_on_mobile": false,
+                "disable_on_tablet": false,
+                "custom_height_auto": false,
+                "scrollable_content": false,
+                "position_from_trigger": false,
+                "position_fixed": false,
+                "overlay_disabled": false,
+                "stackable": false,
+                "disable_reposition": false,
+                "close_on_overlay_click": false,
+                "close_on_esc_press": false,
+                "close_on_f4_press": false,
+                "disable_form_reopen": false,
+                "disable_accessibility": false,
+                "theme_id": "910",
+                "size": "medium",
+                "responsive_min_width": "0%",
+                "responsive_max_width": "100%",
+                "custom_width": "640px",
+                "custom_height": "380px",
+                "animation_type": "fade",
+                "animation_speed": "350",
+                "animation_origin": "center top",
+                "location": "center top",
+                "position_top": "100",
+                "position_bottom": "0",
+                "position_left": "0",
+                "position_right": "0",
+                "zindex": "1999999999",
+                "close_button_delay": "0",
+                "triggers": [],
+                "cookies": [],
+                "theme_slug": "custom-popup",
+                "id": 1266,
+                "slug": "sri-widawati"
+            },
+            "pum-1196": {
+                "disable_on_mobile": false,
+                "disable_on_tablet": false,
+                "custom_height_auto": false,
+                "scrollable_content": false,
+                "position_from_trigger": false,
+                "position_fixed": false,
+                "overlay_disabled": false,
+                "stackable": false,
+                "disable_reposition": false,
+                "close_on_overlay_click": false,
+                "close_on_esc_press": false,
+                "close_on_f4_press": false,
+                "disable_form_reopen": false,
+                "disable_accessibility": false,
+                "theme_id": "910",
+                "size": "medium",
+                "responsive_min_width": "0%",
+                "responsive_max_width": "100%",
+                "custom_width": "640px",
+                "custom_height": "380px",
+                "animation_type": "fade",
+                "animation_speed": "350",
+                "animation_origin": "center top",
+                "location": "center top",
+                "position_top": "100",
+                "position_bottom": "0",
+                "position_left": "0",
+                "position_right": "0",
+                "zindex": "1999999999",
+                "close_button_delay": "0",
+                "triggers": [],
+                "cookies": [],
+                "theme_slug": "custom-popup",
+                "id": 1196,
+                "slug": "stefany-sagita"
+            },
+            "pum-1192": {
+                "disable_on_mobile": false,
+                "disable_on_tablet": false,
+                "custom_height_auto": false,
+                "scrollable_content": false,
+                "position_from_trigger": false,
+                "position_fixed": false,
+                "overlay_disabled": false,
+                "stackable": false,
+                "disable_reposition": false,
+                "close_on_overlay_click": false,
+                "close_on_esc_press": false,
+                "close_on_f4_press": false,
+                "disable_form_reopen": false,
+                "disable_accessibility": false,
+                "theme_id": "910",
+                "size": "medium",
+                "responsive_min_width": "0%",
+                "responsive_max_width": "100%",
+                "custom_width": "640px",
+                "custom_height": "380px",
+                "animation_type": "fade",
+                "animation_speed": "350",
+                "animation_origin": "center top",
+                "location": "center top",
+                "position_top": "100",
+                "position_bottom": "0",
+                "position_left": "0",
+                "position_right": "0",
+                "zindex": "1999999999",
+                "close_button_delay": "0",
+                "triggers": [],
+                "cookies": [],
+                "theme_slug": "custom-popup",
+                "id": 1192,
+                "slug": "haniahwaty"
+            },
+            "pum-940": {
+                "disable_on_mobile": false,
+                "disable_on_tablet": false,
+                "custom_height_auto": false,
+                "scrollable_content": false,
+                "position_from_trigger": false,
+                "position_fixed": false,
+                "overlay_disabled": false,
+                "stackable": false,
+                "disable_reposition": false,
+                "close_on_overlay_click": false,
+                "close_on_esc_press": false,
+                "close_on_f4_press": false,
+                "disable_form_reopen": false,
+                "disable_accessibility": false,
+                "theme_id": "910",
+                "size": "medium",
+                "responsive_min_width": "0%",
+                "responsive_max_width": "100%",
+                "custom_width": "640px",
+                "custom_height": "380px",
+                "animation_type": "fade",
+                "animation_speed": "350",
+                "animation_origin": "center top",
+                "location": "center top",
+                "position_top": "100",
+                "position_bottom": "0",
+                "position_left": "0",
+                "position_right": "0",
+                "zindex": "1999999999",
+                "close_button_delay": "0",
+                "triggers": [],
+                "cookies": [],
+                "theme_slug": "custom-popup",
+                "id": 940,
+                "slug": "r-r-endang-khamelianti"
+            },
+            "pum-942": {
+                "disable_on_mobile": false,
+                "disable_on_tablet": false,
+                "custom_height_auto": false,
+                "scrollable_content": false,
+                "position_from_trigger": false,
+                "position_fixed": false,
+                "overlay_disabled": false,
+                "stackable": false,
+                "disable_reposition": false,
+                "close_on_overlay_click": false,
+                "close_on_esc_press": false,
+                "close_on_f4_press": false,
+                "disable_form_reopen": false,
+                "disable_accessibility": false,
+                "theme_id": "910",
+                "size": "medium",
+                "responsive_min_width": "0%",
+                "responsive_max_width": "100%",
+                "custom_width": "640px",
+                "custom_height": "380px",
+                "animation_type": "fade",
+                "animation_speed": "350",
+                "animation_origin": "center top",
+                "location": "center top",
+                "position_top": "100",
+                "position_bottom": "0",
+                "position_left": "0",
+                "position_right": "0",
+                "zindex": "1999999999",
+                "close_button_delay": "0",
+                "triggers": [],
+                "cookies": [],
+                "theme_slug": "custom-popup",
+                "id": 942,
+                "slug": "bagas-benardhy"
+            },
+            "pum-934": {
+                "disable_on_mobile": false,
+                "disable_on_tablet": false,
+                "custom_height_auto": false,
+                "scrollable_content": false,
+                "position_from_trigger": false,
+                "position_fixed": false,
+                "overlay_disabled": false,
+                "stackable": false,
+                "disable_reposition": false,
+                "close_on_overlay_click": false,
+                "close_on_esc_press": false,
+                "close_on_f4_press": false,
+                "disable_form_reopen": false,
+                "disable_accessibility": false,
+                "theme_id": "910",
+                "size": "medium",
+                "responsive_min_width": "0%",
+                "responsive_max_width": "100%",
+                "custom_width": "640px",
+                "custom_height": "380px",
+                "animation_type": "fade",
+                "animation_speed": "350",
+                "animation_origin": "center top",
+                "location": "center top",
+                "position_top": "100",
+                "position_bottom": "0",
+                "position_left": "0",
+                "position_right": "0",
+                "zindex": "1999999999",
+                "close_button_delay": "0",
+                "triggers": [],
+                "cookies": [],
+                "theme_slug": "custom-popup",
+                "id": 934,
+                "slug": "junaedi-alqatiri"
+            },
+            "pum-947": {
+                "disable_on_mobile": false,
+                "disable_on_tablet": false,
+                "custom_height_auto": false,
+                "scrollable_content": false,
+                "position_from_trigger": false,
+                "position_fixed": false,
+                "overlay_disabled": false,
+                "stackable": false,
+                "disable_reposition": false,
+                "close_on_overlay_click": false,
+                "close_on_esc_press": false,
+                "close_on_f4_press": false,
+                "disable_form_reopen": false,
+                "disable_accessibility": false,
+                "theme_id": "910",
+                "size": "medium",
+                "responsive_min_width": "0%",
+                "responsive_max_width": "100%",
+                "custom_width": "640px",
+                "custom_height": "380px",
+                "animation_type": "fade",
+                "animation_speed": "350",
+                "animation_origin": "center top",
+                "location": "center top",
+                "position_top": "100",
+                "position_bottom": "0",
+                "position_left": "0",
+                "position_right": "0",
+                "zindex": "1999999999",
+                "close_button_delay": "0",
+                "triggers": [],
+                "cookies": [],
+                "theme_slug": "custom-popup",
+                "id": 947,
+                "slug": "diana-fitriasari"
+            },
+            "pum-945": {
+                "disable_on_mobile": false,
+                "disable_on_tablet": false,
+                "custom_height_auto": false,
+                "scrollable_content": false,
+                "position_from_trigger": false,
+                "position_fixed": false,
+                "overlay_disabled": false,
+                "stackable": false,
+                "disable_reposition": false,
+                "close_on_overlay_click": false,
+                "close_on_esc_press": false,
+                "close_on_f4_press": false,
+                "disable_form_reopen": false,
+                "disable_accessibility": false,
+                "theme_id": "910",
+                "size": "medium",
+                "responsive_min_width": "0%",
+                "responsive_max_width": "100%",
+                "custom_width": "640px",
+                "custom_height": "380px",
+                "animation_type": "fade",
+                "animation_speed": "350",
+                "animation_origin": "center top",
+                "location": "center top",
+                "position_top": "100",
+                "position_bottom": "0",
+                "position_left": "0",
+                "position_right": "0",
+                "zindex": "1999999999",
+                "close_button_delay": "0",
+                "triggers": [],
+                "cookies": [],
+                "theme_slug": "custom-popup",
+                "id": 945,
+                "slug": "ronald-austin"
+            },
+            "pum-937": {
+                "disable_on_mobile": false,
+                "disable_on_tablet": false,
+                "custom_height_auto": false,
+                "scrollable_content": false,
+                "position_from_trigger": false,
+                "position_fixed": false,
+                "overlay_disabled": false,
+                "stackable": false,
+                "disable_reposition": false,
+                "close_on_overlay_click": false,
+                "close_on_esc_press": false,
+                "close_on_f4_press": false,
+                "disable_form_reopen": false,
+                "disable_accessibility": false,
+                "theme_id": "910",
+                "size": "medium",
+                "responsive_min_width": "0%",
+                "responsive_max_width": "100%",
+                "custom_width": "640px",
+                "custom_height": "380px",
+                "animation_type": "fade",
+                "animation_speed": "350",
+                "animation_origin": "center top",
+                "location": "center top",
+                "position_top": "100",
+                "position_bottom": "0",
+                "position_left": "0",
+                "position_right": "0",
+                "zindex": "1999999999",
+                "close_button_delay": "0",
+                "triggers": [],
+                "cookies": [],
+                "theme_slug": "custom-popup",
+                "id": 937,
+                "slug": "lelly-rosfiah"
+            },
+            "pum-930": {
+                "disable_on_mobile": false,
+                "disable_on_tablet": false,
+                "custom_height_auto": false,
+                "scrollable_content": false,
+                "position_from_trigger": false,
+                "position_fixed": false,
+                "overlay_disabled": false,
+                "stackable": false,
+                "disable_reposition": false,
+                "close_on_overlay_click": false,
+                "close_on_esc_press": false,
+                "close_on_f4_press": false,
+                "disable_form_reopen": false,
+                "disable_accessibility": false,
+                "theme_id": "910",
+                "size": "medium",
+                "responsive_min_width": "0%",
+                "responsive_max_width": "100%",
+                "custom_width": "640px",
+                "custom_height": "380px",
+                "animation_type": "fade",
+                "animation_speed": "350",
+                "animation_origin": "center top",
+                "location": "center top",
+                "position_top": "100",
+                "position_bottom": "0",
+                "position_left": "0",
+                "position_right": "0",
+                "zindex": "1999999999",
+                "close_button_delay": "0",
+                "triggers": [],
+                "cookies": [],
+                "theme_slug": "custom-popup",
+                "id": 930,
+                "slug": "vendi-sjahlendra"
+            },
+            "pum-925": {
+                "disable_on_mobile": false,
+                "disable_on_tablet": false,
+                "custom_height_auto": false,
+                "scrollable_content": false,
+                "position_from_trigger": false,
+                "position_fixed": false,
+                "overlay_disabled": false,
+                "stackable": false,
+                "disable_reposition": false,
+                "close_on_overlay_click": false,
+                "close_on_esc_press": false,
+                "close_on_f4_press": false,
+                "disable_form_reopen": false,
+                "disable_accessibility": false,
+                "theme_id": "910",
+                "size": "medium",
+                "responsive_min_width": "0%",
+                "responsive_max_width": "100%",
+                "custom_width": "640px",
+                "custom_height": "380px",
+                "animation_type": "fade",
+                "animation_speed": "350",
+                "animation_origin": "center top",
+                "location": "center top",
+                "position_top": "100",
+                "position_bottom": "0",
+                "position_left": "0",
+                "position_right": "0",
+                "zindex": "1999999999",
+                "close_button_delay": "0",
+                "triggers": [],
+                "cookies": [],
+                "theme_slug": "custom-popup",
+                "id": 925,
+                "slug": "lindawati-soedojo"
+            },
+            "pum-913": {
+                "disable_on_mobile": false,
+                "disable_on_tablet": false,
+                "custom_height_auto": false,
+                "scrollable_content": false,
+                "position_from_trigger": false,
+                "position_fixed": false,
+                "overlay_disabled": false,
+                "stackable": false,
+                "disable_reposition": false,
+                "close_on_overlay_click": false,
+                "close_on_esc_press": false,
+                "close_on_f4_press": false,
+                "disable_form_reopen": false,
+                "disable_accessibility": false,
+                "triggers": [{
+                    "type": "click_open",
+                    "settings": {
+                        "cookie_name": "",
+                        "extra_selectors": ".verdi-popup"
+                    }
+                }],
+                "theme_id": "910",
+                "size": "normal",
+                "responsive_min_width": "0%",
+                "responsive_max_width": "100%",
+                "custom_width": "640px",
+                "custom_height": "380px",
+                "animation_type": "fade",
+                "animation_speed": "350",
+                "animation_origin": "center top",
+                "location": "center top",
+                "position_top": "100",
+                "position_bottom": "0",
+                "position_left": "0",
+                "position_right": "0",
+                "zindex": "1999999999",
+                "close_button_delay": "0",
+                "cookies": [],
+                "theme_slug": "custom-popup",
+                "id": 913,
+                "slug": "verdi-headquarter-2"
+            },
+            "pum-927": {
+                "disable_on_mobile": false,
+                "disable_on_tablet": false,
+                "custom_height_auto": false,
+                "scrollable_content": false,
+                "position_from_trigger": false,
+                "position_fixed": false,
+                "overlay_disabled": false,
+                "stackable": false,
+                "disable_reposition": false,
+                "close_on_overlay_click": false,
+                "close_on_esc_press": false,
+                "close_on_f4_press": false,
+                "disable_form_reopen": false,
+                "disable_accessibility": false,
+                "theme_id": "910",
+                "size": "medium",
+                "responsive_min_width": "0%",
+                "responsive_max_width": "100%",
+                "custom_width": "640px",
+                "custom_height": "380px",
+                "animation_type": "fade",
+                "animation_speed": "350",
+                "animation_origin": "center top",
+                "location": "center top",
+                "position_top": "100",
+                "position_bottom": "0",
+                "position_left": "0",
+                "position_right": "0",
+                "zindex": "1999999999",
+                "close_button_delay": "0",
+                "triggers": [],
+                "cookies": [],
+                "theme_slug": "custom-popup",
+                "id": 927,
+                "slug": "jenny-sutandi"
+            }
+        };
         /* ]]> */
     </script>
-    <script type='text/javascript' src='https://ddsm.rimibyan.com/wp-content/uploads/pum/pum-site-scriptsc195.js?defer&amp;generated=1574326896&amp;ver=1.8.3'></script>
-    <script type='text/javascript' src='<?= $row00['alamat_web']; ?>wp-includes/js/wp-embed.min34b1.js'></script>
-    <script type='text/javascript' src='<?= $row00['alamat_web']; ?>wp-content/plugins/raven/assets/lib/smartmenus/jquery.smartmenus.minf488.js'></script>
-    <script type='text/javascript' src='<?= $row00['alamat_web']; ?>wp-content/plugins/jet-elements/assets/js/lib/tweenjs/tweenjs.min4c56.js'></script>
-    <script type='text/javascript' src='<?= $row00['alamat_web']; ?>wp-content/plugins/elementor/assets/js/frontend-modules355d.js'></script>
-    <script type='text/javascript' src='<?= $row00['alamat_web']; ?>wp-content/plugins/elementor/assets/lib/dialog/dialog.min6996.js'></script>
-    <script type='text/javascript' src='<?= $row00['alamat_web']; ?>wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min05da.js'></script>
-    <script type='text/javascript' src='<?= $row00['alamat_web']; ?>wp-content/plugins/elementor/assets/lib/swiper/swiper.min4f24.js'></script>
+    <script type='text/javascript' src='../wp-content/uploads/pum/pum-site-scriptsc195.js?defer&amp;generated=1574326896&amp;ver=1.8.3'></script>
+    <script type='text/javascript' src='../wp-includes/js/wp-embed.min34b1.js?ver=5.1.11'></script>
+    <script type='text/javascript' src='../wp-content/plugins/raven/assets/lib/smartmenus/jquery.smartmenus.minf488.js?ver=1.1.0'></script>
+    <script type='text/javascript' src='../wp-content/plugins/elementor/assets/lib/slick/slick.minc245.js?ver=1.8.1'></script>
+    <script type='text/javascript' src='../wp-content/plugins/jet-elements/assets/js/lib/tweenjs/tweenjs.min4c56.js?ver=2.0.2'></script>
+    <script type='text/javascript' src='../wp-content/plugins/elementor/assets/js/frontend-modules355d.js?ver=2.5.7'></script>
+    <script type='text/javascript' src='../wp-content/plugins/elementor/assets/lib/dialog/dialog.min6996.js?ver=4.7.1'></script>
+    <script type='text/javascript' src='../wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min05da.js?ver=4.0.2'></script>
+    <script type='text/javascript' src='../wp-content/plugins/elementor/assets/lib/swiper/swiper.min4f24.js?ver=4.4.6'></script>
     <script type='text/javascript'>
         var elementorFrontendConfig = {
             "environmentMode": {
@@ -940,7 +1486,7 @@ ol.organizational-chart > li > ol > li > ol > li > ol > li > ol > li > div {
             }
         };
     </script>
-    <script type='text/javascript' src='<?= $row00['alamat_web']; ?>wp-content/plugins/elementor/assets/js/frontend.min355d.js'></script>
+    <script type='text/javascript' src='../wp-content/plugins/elementor/assets/js/frontend.min355d.js?ver=2.5.7'></script>
     <script type='text/javascript'>
         /* <![CDATA[ */
         var jetElements = {
@@ -1519,7 +2065,7 @@ ol.organizational-chart > li > ol > li > ol > li > ol > li > ol > li > div {
         };
         /* ]]> */
     </script>
-    <!-- <script type='text/javascript' src='../wp-content/plugins/jet-elements/assets/js/jet-elementsedf9.js?ver=1.15.4'></script> -->
+    <script type='text/javascript' src='../wp-content/plugins/jet-elements/assets/js/jet-elementsedf9.js?ver=1.15.4'></script>
     <script type='text/javascript'>
         /* <![CDATA[ */
         var _wpUtilSettings = {
@@ -1529,5 +2075,5 @@ ol.organizational-chart > li > ol > li > ol > li > ol > li > ol > li > div {
         };
         /* ]]> */
     </script>
-    <script type='text/javascript' src='<?= $row00['alamat_web']; ?>wp-includes/js/wp-util.min34b1.js'></script>
-    <script type='text/javascript' src='<?= $row00['alamat_web']; ?>wp-content/plugins/raven/assets/js/frontend.minf488.js'></script>
+    <script type='text/javascript' src='../wp-includes/js/wp-util.min34b1.js?ver=5.1.11'></script>
+    <script type='text/javascript' src='../wp-content/plugins/raven/assets/js/frontend.minf488.js?ver=1.1.0'></script>
