@@ -899,7 +899,7 @@ ol.organizational-chart > li > ol > li > ol > li > ol > li > ol > li > div {
       
         /* ]]> */
     </script>
-    <script type='text/javascript' src='../wp-content/uploads/pum/pum-site-scriptsc195.js?defer&amp;generated=1574326896&amp;ver=1.8.3'></script>
+    <script type='text/javascript' src='<?= $row00['alamat_web']; ?>/wp-content/uploads/pum/pum-site-scriptsc195.js?defer&amp;generated=1574326896&amp;ver=1.8.3'></script>
     <script type='text/javascript' src='<?= $row00['alamat_web']; ?>wp-includes/js/wp-embed.min34b1.js'></script>
     <script type='text/javascript' src='<?= $row00['alamat_web']; ?>wp-content/plugins/raven/assets/lib/smartmenus/jquery.smartmenus.minf488.js'></script>
     <script type='text/javascript' src='<?= $row00['alamat_web']; ?>wp-content/plugins/jet-elements/assets/js/lib/tweenjs/tweenjs.min4c56.js'></script>
