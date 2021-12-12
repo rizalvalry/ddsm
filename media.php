@@ -13,7 +13,7 @@ $tahun = date("Y");
         <html lang="en-US">
         <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 
-        <head data-markup-id="jupiterx_head">
+        <head>
         <title><?= $row00['nama_toko']; ?> | <?php include 'seo/dina_meta1.php'; ?></title>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -37,55 +37,9 @@ $tahun = date("Y");
 
 
     <link rel='dns-prefetch' href='http://s.w.org/' />
-    <link rel="alternate" type="application/rss+xml" title="Trans Pacific International Logistics &raquo; Feed" href="feed/index.html" />
-    <link rel="alternate" type="application/rss+xml" title="Trans Pacific International Logistics &raquo; Comments Feed" href="comments/feed/index.html" />
-    <script type="text/javascript">
-        window._wpemojiSettings = {
-            "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/11.2.0\/72x72\/",
-            "ext": ".png",
-            "svgUrl": "https:\/\/s.w.org\/images\/core\/emoji\/11.2.0\/svg\/",
-            "svgExt": ".svg",
-            "source": {
-                "concatemoji": "http:\/\/www.transpac-logistics.co.id\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.1.11"
-            }
-        };
-        ! function(e, a, t) {
-            var n, r, o, i = a.createElement("canvas"),
-                p = i.getContext && i.getContext("2d");
+    <link rel="alternate" type="application/rss+xml" title="<?php include 'seo/dina_meta2.php'; ?> Feed" href="feed/" />
+    <link rel="alternate" type="application/rss+xml" title="<?php include 'seo/dina_meta2.php'; ?> Comments Feed" href="comments/feed/" />
 
-            function s(e, t) {
-                var a = String.fromCharCode;
-                p.clearRect(0, 0, i.width, i.height), p.fillText(a.apply(this, e), 0, 0);
-                e = i.toDataURL();
-                return p.clearRect(0, 0, i.width, i.height), p.fillText(a.apply(this, t), 0, 0), e === i.toDataURL()
-            }
-
-            function c(e) {
-                var t = a.createElement("script");
-                t.src = e, t.defer = t.type = "text/javascript", a.getElementsByTagName("head")[0].appendChild(t)
-            }
-            for (o = Array("flag", "emoji"), t.supports = {
-                    everything: !0,
-                    everythingExceptFlag: !0
-                }, r = 0; r < o.length; r++) t.supports[o[r]] = function(e) {
-                if (!p || !p.fillText) return !1;
-                switch (p.textBaseline = "top", p.font = "600 32px Arial", e) {
-                    case "flag":
-                        return s([55356, 56826, 55356, 56819], [55356, 56826, 8203, 55356, 56819]) ? !1 : !s([55356, 57332, 56128, 56423, 56128, 56418, 56128, 56421, 56128, 56430, 56128, 56423, 56128, 56447], [55356, 57332, 8203, 56128, 56423, 8203, 56128, 56418, 8203, 56128, 56421, 8203, 56128, 56430, 8203, 56128, 56423, 8203, 56128, 56447]);
-                    case "emoji":
-                        return !s([55358, 56760, 9792, 65039], [55358, 56760, 8203, 9792, 65039])
-                }
-                return !1
-            }(o[r]), t.supports.everything = t.supports.everything && t.supports[o[r]], "flag" !== o[r] && (t.supports.everythingExceptFlag = t.supports.everythingExceptFlag && t.supports[o[r]]);
-            t.supports.everythingExceptFlag = t.supports.everythingExceptFlag && !t.supports.flag, t.DOMReady = !1, t.readyCallback = function() {
-                t.DOMReady = !0
-            }, t.supports.everything || (n = function() {
-                t.readyCallback()
-            }, a.addEventListener ? (a.addEventListener("DOMContentLoaded", n, !1), e.addEventListener("load", n, !1)) : (e.attachEvent("onload", n), a.attachEvent("onreadystatechange", function() {
-                "complete" === a.readyState && t.readyCallback()
-            })), (n = t.source || {}).concatemoji ? c(n.concatemoji) : n.wpemoji && n.twemoji && (c(n.twemoji), c(n.wpemoji)))
-        }(window, document, window._wpemojiSettings);
-    </script>
     <style type="text/css">
         img.wp-smiley,
         img.emoji {
@@ -118,12 +72,9 @@ $tahun = date("Y");
     <link rel='stylesheet' id='elementor-post-102-css' href='wp-content/uploads/elementor/css/post-1025640.css?ver=1564730205' type='text/css' media='all' />
     <script type='text/javascript' src='wp-includes/js/jquery/jqueryb8ff.js?ver=1.12.4'></script>
     <script type='text/javascript' src='wp-includes/js/jquery/jquery-migrate.min330a.js?ver=1.4.1'></script>
-    <link rel='https://api.w.org/' href='wp-json/index.html' />
     <link rel="EditURI" type="application/rsd+xml" title="RSD" href="xmlrpc0db0.php?rsd" />
     <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="wp-includes/wlwmanifest.xml" />
     <meta name="generator" content="WordPress 5.1.11" />
-    <link rel="canonical" href="index.html" />
-    <link rel='shortlink' href='index.html' />
     <link rel="alternate" type="application/json+oembed" href="wp-json/oembed/1.0/embede69e.json?url=http%3A%2F%2Fwww.transpac-logistics.co.id%2F" />
     <link rel="alternate" type="text/xml+oembed" href="wp-json/oembed/1.0/embed8d8f?url=http%3A%2F%2Fwww.transpac-logistics.co.id%2F&amp;format=xml" />
     <style type="text/css">
@@ -259,13 +210,436 @@ $tahun = date("Y");
 
 <body class="home page-template page-template-elementor_header_footer page page-id-6 no-js elementor-default elementor-template-full-width elementor-page elementor-page-6 jupiterx-header-sticky jupiterx-header-tablet-behavior-off jupiterx-header-mobile-behavior-off jupiterx-header-overlapped jupiterx-header-overlapped-tablet jupiterx-header-overlapped-mobile"
     itemscope="itemscope" itemtype="http://schema.org/WebPage" data-markup-id="jupiterx_body">
-    
+    <div class="jupiterx-site" data-markup-id="jupiterx_site">
+        
+        
+    <!-- header -->
+    <header class="jupiterx-header jupiterx-header-custom jupiterx-header-sticky-custom" data-jupiterx-settings="{&quot;breakpoint&quot;:&quot;767.98&quot;,&quot;template&quot;:&quot;87&quot;,&quot;stickyTemplate&quot;:&quot;102&quot;,&quot;behavior&quot;:&quot;sticky&quot;,&quot;offset&quot;:&quot;50&quot;,&quot;overlap&quot;:&quot;desktop,tablet,mobile&quot;}"
+            role="banner" itemscope="itemscope" itemtype="http://schema.org/WPHeader" data-markup-id="jupiterx_header">
+            <!-- open output: jupiterx_custom_header_template -->
+            <div data-elementor-type="header" data-elementor-id="87" class="elementor elementor-87" data-elementor-settings="[]">
+                <div class="elementor-inner">
+                    <div class="elementor-section-wrap">
+                        <section class="elementor-element elementor-element-06c7e40 elementor-section-content-middle custom-header elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="06c7e40"
+                            data-element_type="section">
+                            <div class="elementor-container elementor-column-gap-no">
+                                <div class="elementor-row">
+                                    <div class="elementor-element elementor-element-ab2966c elementor-column elementor-col-33 elementor-top-column" data-id="ab2966c" data-element_type="column">
+                                        <div class="elementor-column-wrap  elementor-element-populated">
+                                            <div class="elementor-widget-wrap">
+                                                <div class="elementor-element elementor-element-ecbed5c elementor-widget elementor-widget-raven-site-logo" data-id="ecbed5c" data-element_type="widget" data-widget_type="raven-site-logo.default">
+                                                    <div class="elementor-widget-container">
+                                                        <div class="raven-widget-wrapper">
+                                                            <div class="raven-site-logo">
+                                                                <a class="raven-site-logo-link" href="">
+                                                                    <img src="gambar/toko/<?php echo $row00['gambar']; ?>" alt="<?php include 'seo/dina_meta2.php'; ?>" class="raven-site-logo-desktop raven-site-logo-tablet raven-site-logo-mobile" />
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="elementor-element elementor-element-d5e1e31 raven-column-flex-end raven-column-flex-horizontal elementor-column elementor-col-66 elementor-top-column" data-id="d5e1e31" data-element_type="column" id="nav-menu">
+                                        <div class="elementor-column-wrap  elementor-element-populated">
+                                            <div class="elementor-widget-wrap">
+                                                <div class="elementor-element elementor-element-70220dc raven-breakpoint-tablet raven-nav-menu-align-right raven-nav-menu-stretch elementor-widget elementor-widget-raven-nav-menu" data-id="70220dc" data-element_type="widget" data-settings="{&quot;full_width&quot;:&quot;stretch&quot;,&quot;mobile_layout&quot;:&quot;dropdown&quot;,&quot;submenu_space_between&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;submenu_position&quot;:&quot;top&quot;}"
+                                                    data-widget_type="raven-nav-menu.default">
+                                                    <div class="elementor-widget-container">
+                                                        <nav class="raven-nav-menu-main raven-nav-menu-horizontal">
+                                                            <ul id="menu-70220dc" class="raven-nav-menu">
+                                                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-6 current_page_item menu-item-20"><a href="" aria-current="page" class="raven-menu-item raven-menu-item-<?php echo (basename($_SERVER['PHP_SELF'])=="home") ? "" : "" ?>">Home</a></li>
+                                                            <?php
+                                                                $query4  = $db->prepare("SELECT nama_menu,link FROM menuutama WHERE aktif=? AND lokasi=? ORDER BY urutan ASC");
+                                                                $query4->bind_param("ss", $aktif4,$lokasi4);
+                                                                $lokasi4 = "Public";
+                                                                $aktif4  = "Y";
+                                                                $query4->execute();
+                                                                $result4 = $query4->get_result();
+                                                                while ( $row4 = $result4->fetch_assoc() ){ ?>
+
+                                                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-290"><a class="raven-menu-item" href="<?= $row4['link']; ?>"><?= $row4['nama_menu']; ?></a></li>
+
+                                                            <?php } ?>
+                                                            </ul>
+                                                        </nav>
+                                                        <div class="raven-nav-menu-toggle">
+                                                            <div class="raven-nav-menu-toggle-button">
+                                                                <span class="fa fa-bars"></span>
+                                                            </div>
+                                                        </div>
+                                                        <nav class="raven-nav-menu-mobile raven-nav-menu-dropdown">
+                                                            <div class="raven-container">
+                                                                <ul id="menu-70220dc" class="raven-nav-menu">
+                                                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-6 current_page_item menu-item-20"><a href="" aria-current="page" class="raven-menu-item raven-menu-item-">Home</a></li>
+                                                                    <?php
+                                                                        $query4  = $db->prepare("SELECT nama_menu,link FROM menuutama WHERE aktif=? AND lokasi=? ORDER BY urutan ASC");
+                                                                        $query4->bind_param("ss", $aktif4,$lokasi4);
+                                                                        $lokasi4 = "Public";
+                                                                        $aktif4  = "Y";
+                                                                        $query4->execute();
+                                                                        $result4 = $query4->get_result();
+                                                                        while ( $row4 = $result4->fetch_assoc() ){ ?>
+
+                                                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-290"><a class="raven-menu-item" href="<?= $row4['link']; ?>"><?= $row4['nama_menu']; ?></a></li>
+
+                                                                    <?php } ?>
+                                                                </ul>
+                                                            </div>
+                                                        </nav>
+                                                    </div>
+                                                </div>
+                                                <div class="elementor-element elementor-element-3bf7239 elementor-widget elementor-widget-raven-search-form" data-id="3bf7239" data-element_type="widget" data-settings="{&quot;_skin&quot;:&quot;full&quot;}" data-widget_type="raven-search-form.full">
+                                                    <div class="elementor-widget-container">
+                                                        <form class="raven-search-form raven-search-form-full" method="get" action="http://www.transpac-logistics.co.id/" role="search">
+                                                            <div class="raven-search-form-container">
+                                                                <span class="raven-search-form-button raven-search-form-toggle fa fa-search" tabindex="-1"></span>
+                                                            </div>
+                                                            <div class="raven-search-form-lightbox">
+                                                                <span class="raven-search-form-close" tabindex="-1">&times;</span>
+                                                                <input class="raven-search-form-input" type="search" name="s" placeholder="" />
+                                                            </div>
+                                                        </form>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+            <!-- close output: jupiterx_custom_header_template -->
+            <!-- open output: jupiterx_custom_header_sticky_template -->
+            <div data-elementor-type="header" data-elementor-id="102" class="elementor elementor-102" data-elementor-settings="[]">
+                <div class="elementor-inner">
+                    <div class="elementor-section-wrap">
+                        <section class="elementor-element elementor-element-fab280b elementor-section-content-middle elementor-hidden-tablet elementor-hidden-phone elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section"
+                            data-id="fab280b" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                            <div class="elementor-container elementor-column-gap-no">
+                                <div class="elementor-row">
+                                    <div class="elementor-element elementor-element-a194311 elementor-column elementor-col-50 elementor-top-column" data-id="a194311" data-element_type="column">
+                                        <div class="elementor-column-wrap  elementor-element-populated">
+                                            <div class="elementor-widget-wrap">
+                                                <div class="elementor-element elementor-element-08517ea elementor-widget elementor-widget-raven-site-logo" data-id="08517ea" data-element_type="widget" data-widget_type="raven-site-logo.default">
+                                                    <div class="elementor-widget-container">
+                                                        <div class="raven-widget-wrapper">
+                                                            <div class="raven-site-logo">
+                                                                <a class="raven-site-logo-link" href="">
+                                                                    <img src="gambar/toko/<?php echo $row00['gambar']; ?>" alt="<?php include 'seo/dina_meta2.php'; ?>" class="raven-site-logo-desktop" />
+                                                                    <img src="gambar/toko/<?php echo $row00['gambar']; ?>" alt="<?php include 'seo/dina_meta2.php'; ?>" class="raven-site-logo-tablet raven-site-logo-mobile" />
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="elementor-element elementor-element-b7fdcb6 raven-column-flex-end raven-column-flex-horizontal elementor-column elementor-col-50 elementor-top-column" data-id="b7fdcb6" data-element_type="column">
+                                        <div class="elementor-column-wrap  elementor-element-populated">
+                                            <div class="elementor-widget-wrap">
+                                                <div class="elementor-element elementor-element-40464e6 raven-breakpoint-tablet raven-nav-menu-align-right raven-nav-menu-stretch elementor-widget elementor-widget-raven-nav-menu" data-id="40464e6" data-element_type="widget" id="sticky-nav-menu" data-settings="{&quot;full_width&quot;:&quot;stretch&quot;,&quot;mobile_layout&quot;:&quot;dropdown&quot;,&quot;submenu_space_between&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;submenu_position&quot;:&quot;top&quot;}"
+                                                    data-widget_type="raven-nav-menu.default">
+                                                    <div class="elementor-widget-container">
+                                                        <nav class="raven-nav-menu-main raven-nav-menu-horizontal">
+                                                            <ul id="menu-40464e6" class="raven-nav-menu">
+                                                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-6 current_page_item menu-item-20"><a href="" aria-current="page" class="raven-menu-item raven-menu-item-">Home</a></li>
+                                                            <?php
+                                                                        $query4  = $db->prepare("SELECT nama_menu,link FROM menuutama WHERE aktif=? AND lokasi=? ORDER BY urutan ASC");
+                                                                        $query4->bind_param("ss", $aktif4,$lokasi4);
+                                                                        $lokasi4 = "Public";
+                                                                        $aktif4  = "Y";
+                                                                        $query4->execute();
+                                                                        $result4 = $query4->get_result();
+                                                                        while ( $row4 = $result4->fetch_assoc() ){ ?>
+
+                                                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-290"><a class="raven-menu-item" href="<?= $row4['link']; ?>"><?= $row4['nama_menu']; ?></a></li>
+
+                                                                    <?php } ?>
+                                                            </ul>
+                                                        </nav>
+                                                        <div class="raven-nav-menu-toggle">
+                                                            <div class="raven-nav-menu-toggle-button">
+                                                                <span class="fa fa-bars"></span>
+                                                            </div>
+                                                        </div>
+                                                        <nav class="raven-nav-menu-mobile raven-nav-menu-dropdown">
+                                                            <div class="raven-container">
+                                                                <ul id="menu-40464e6" class="raven-nav-menu">
+                                                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-6 current_page_item menu-item-20"><a href="" aria-current="page" class="raven-menu-item raven-menu-item-">Home</a></li>
+                                                            <?php
+                                                                        $query4  = $db->prepare("SELECT nama_menu,link FROM menuutama WHERE aktif=? AND lokasi=? ORDER BY urutan ASC");
+                                                                        $query4->bind_param("ss", $aktif4,$lokasi4);
+                                                                        $lokasi4 = "Public";
+                                                                        $aktif4  = "Y";
+                                                                        $query4->execute();
+                                                                        $result4 = $query4->get_result();
+                                                                        while ( $row4 = $result4->fetch_assoc() ){ ?>
+
+                                                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-290"><a class="raven-menu-item" href="<?= $row4['link']; ?>"><?= $row4['nama_menu']; ?></a></li>
+
+                                                                    <?php } ?>
+                                                                </ul>
+                                                            </div>
+                                                        </nav>
+                                                    </div>
+                                                </div>
+                                                <div class="elementor-element elementor-element-c0bec16 elementor-widget elementor-widget-raven-search-form" data-id="c0bec16" data-element_type="widget" data-settings="{&quot;_skin&quot;:&quot;full&quot;}" data-widget_type="raven-search-form.full">
+                                                    <div class="elementor-widget-container">
+                                                        <form class="raven-search-form raven-search-form-full" method="get" action="http://www.transpac-logistics.co.id/" role="search">
+                                                            <div class="raven-search-form-container">
+                                                                <span class="raven-search-form-button raven-search-form-toggle fa fa-search" tabindex="-1"></span>
+                                                            </div>
+                                                            <div class="raven-search-form-lightbox">
+                                                                <span class="raven-search-form-close" tabindex="-1">&times;</span>
+                                                                <input class="raven-search-form-input" type="search" name="s" placeholder="" />
+                                                            </div>
+                                                        </form>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+            <!-- close output: jupiterx_custom_header_sticky_template -->
+        </header>
+    <!-- close header -->
 
     <!-- main body -->
     <?php include "tengah.php";?>
     <!-- end main body -->
-    
+                                                            
+    <footer class="jupiterx-footer" role="contentinfo" itemscope="itemscope" itemtype="http://schema.org/WPFooter" data-markup-id="jupiterx_footer">
+        <!-- open output: jupiterx_custom_footer_template -->
+        <div data-elementor-type="footer" data-elementor-id="99" class="elementor elementor-99" data-elementor-settings="[]">
+            <div class="elementor-inner">
+                <div class="elementor-section-wrap">
+                    <section class="elementor-element elementor-element-552d2fd elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="552d2fd" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                        <div class="elementor-container elementor-column-gap-default">
+                            <div class="elementor-row">
+                                <div class="elementor-element elementor-element-266dcf6 elementor-column elementor-col-25 elementor-top-column" data-id="266dcf6" data-element_type="column">
+                                    <div class="elementor-column-wrap  elementor-element-populated">
+                                        <div class="elementor-widget-wrap">
+                                            <div class="elementor-element elementor-element-f67120f elementor-widget elementor-widget-raven-site-logo" data-id="f67120f" data-element_type="widget" data-widget_type="raven-site-logo.default">
+                                                <div class="elementor-widget-container">
+                                                    <div class="raven-widget-wrapper">
+                                                        <div class="raven-site-logo">
+                                                            <a class="raven-site-logo-link" href="">
+                                                                <img src="gambar/toko/<?php echo $row00['gambar']; ?>" alt="<?php include 'seo/dina_meta2.php'; ?>" class="raven-site-logo-desktop raven-site-logo-tablet raven-site-logo-mobile" />
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="elementor-element elementor-element-08e681f elementor-column elementor-col-25 elementor-top-column" data-id="08e681f" data-element_type="column">
+                                    <div class="elementor-column-wrap  elementor-element-populated">
+                                        <div class="elementor-widget-wrap">
+                                            <div class="elementor-element elementor-element-5a37585 margin-min elementor-widget elementor-widget-heading" data-id="5a37585" data-element_type="widget" data-widget_type="heading.default">
+                                                <div class="elementor-widget-container">
+                                                    <h2 class="elementor-heading-title elementor-size-default">at a glance</h2>
+                                                </div>
+                                            </div>
+                                            <div class="elementor-element elementor-element-f200894 elementor-mobile-align-center custom-icon elementor-icon-list--layout-traditional elementor-widget elementor-widget-icon-list" data-id="f200894" data-element_type="widget" data-widget_type="icon-list.default">
+                                                <div class="elementor-widget-container">
+                                                    <ul class="elementor-icon-list-items">
+                                                        <li class="elementor-icon-list-item">
+                                                            <a href=""> <span class="elementor-icon-list-icon">
+							<i class="fa fa-caret-right" aria-hidden="true"></i>
+						</span>
+                                                                <span class="elementor-icon-list-text">Home</span>
+                                                            </a>
+                                                        </li>
+                                                        <li class="elementor-icon-list-item">
+                                                            <a href="about-us-2/"> <span class="elementor-icon-list-icon">
+							<i class="fa fa-caret-right" aria-hidden="true"></i>
+						</span>
+                                                                <span class="elementor-icon-list-text">About Us</span>
+                                                            </a>
+                                                        </li>
+                                                        <li class="elementor-icon-list-item">
+                                                            <a href="request-for-quote/"> <span class="elementor-icon-list-icon">
+							<i class="fa fa-caret-right" aria-hidden="true"></i>
+						</span>
+                                                                <span class="elementor-icon-list-text">Request for Quote</span>
+                                                            </a>
+                                                        </li>
+                                                        <li class="elementor-icon-list-item">
+                                                            <a href="network-partner/"> <span class="elementor-icon-list-icon">
+							<i class="fa fa-caret-right" aria-hidden="true"></i>
+						</span>
+                                                                <span class="elementor-icon-list-text">Network Partners</span>
+                                                            </a>
+                                                        </li>
+                                                        <li class="elementor-icon-list-item">
+                                                            <a href="technology/"> <span class="elementor-icon-list-icon">
+							<i class="fa fa-caret-right" aria-hidden="true"></i>
+						</span>
+                                                                <span class="elementor-icon-list-text">Technology</span>
+                                                            </a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="elementor-element elementor-element-011f2f4 elementor-column elementor-col-25 elementor-top-column" data-id="011f2f4" data-element_type="column">
+                                    <div class="elementor-column-wrap  elementor-element-populated">
+                                        <div class="elementor-widget-wrap">
+                                            <div class="elementor-element elementor-element-e74f36a margin-min elementor-widget elementor-widget-heading" data-id="e74f36a" data-element_type="widget" data-widget_type="heading.default">
+                                                <div class="elementor-widget-container">
+                                                    <h2 class="elementor-heading-title elementor-size-default">our products</h2>
+                                                </div>
+                                            </div>
+                                            <section class="elementor-element elementor-element-2e4e145 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-inner-section" data-id="2e4e145" data-element_type="section">
+                                                <div class="elementor-container elementor-column-gap-no">
+                                                    <div class="elementor-row">
+                                                        <div class="elementor-element elementor-element-79b2579 elementor-column elementor-col-50 elementor-inner-column" data-id="79b2579" data-element_type="column">
+                                                            <div class="elementor-column-wrap  elementor-element-populated">
+                                                                <div class="elementor-widget-wrap">
+                                                                    <div class="elementor-element elementor-element-818350b elementor-mobile-align-center elementor-align-left custom-icon elementor-icon-list--layout-traditional elementor-widget elementor-widget-icon-list" data-id="818350b" data-element_type="widget" data-widget_type="icon-list.default">
+                                                                        <div class="elementor-widget-container">
+                                                                            <ul class="elementor-icon-list-items">
+                                                                                <li class="elementor-icon-list-item">
+                                                                                    <a href="shipping-to-usa-2/"> <span class="elementor-icon-list-icon">
+							<i class="fa fa-caret-right" aria-hidden="true"></i>
+						</span>
+                                                                                        <span class="elementor-icon-list-text">Dompet Duafa</span>
+                                                                                    </a>
+                                                                                </li>
+                                                                                <li class="elementor-icon-list-item">
+                                                                                    <a href="sea-freight-3/"> <span class="elementor-icon-list-icon">
+							<i class="fa fa-caret-right" aria-hidden="true"></i>
+						</span>
+                                                                                        <span class="elementor-icon-list-text">Banking</span>
+                                                                                    </a>
+                                                                                </li>
+                                                                                <li class="elementor-icon-list-item">
+                                                                                    <a href="air-freight-3/"> <span class="elementor-icon-list-icon">
+							<i class="fa fa-caret-right" aria-hidden="true"></i>
+						</span>
+                                                                                        <span class="elementor-icon-list-text">Infaq</span>
+                                                                                    </a>
+                                                                                </li>
+                                                                                <li class="elementor-icon-list-item">
+                                                                                    <a href="ecommerce/"> <span class="elementor-icon-list-icon">
+							<i class="fa fa-caret-right" aria-hidden="true"></i>
+						</span>
+                                                                                        <span class="elementor-icon-list-text">E-commerce</span>
+                                                                                    </a>
+                                                                                </li>
+                                                                            </ul>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="elementor-element elementor-element-23d3fd8 elementor-column elementor-col-50 elementor-inner-column" data-id="23d3fd8" data-element_type="column">
+                                                            <div class="elementor-column-wrap  elementor-element-populated">
+                                                                <div class="elementor-widget-wrap">
+                                                                    <div class="elementor-element elementor-element-8c49c3b elementor-mobile-align-center custom-icon elementor-icon-list--layout-traditional elementor-widget elementor-widget-icon-list" data-id="8c49c3b" data-element_type="widget" data-widget_type="icon-list.default">
+                                                                        <div class="elementor-widget-container">
+                                                                            <ul class="elementor-icon-list-items">
+                                                                                <li class="elementor-icon-list-item">
+                                                                                    <a href="logistics-2/"> <span class="elementor-icon-list-icon">
+							<i class="fa fa-caret-right" aria-hidden="true"></i>
+						</span>
+                                                                                        <span class="elementor-icon-list-text">Laboratorium</span>
+                                                                                    </a>
+                                                                                </li>
+                                                                                <li class="elementor-icon-list-item">
+                                                                                    <a href="land-transportation-3/"> <span class="elementor-icon-list-icon">
+							<i class="fa fa-caret-right" aria-hidden="true"></i>
+						</span>
+                                                                                        <span class="elementor-icon-list-text">Mobile Transportation</span>
+                                                                                    </a>
+                                                                                </li>
+                                                                                <li class="elementor-icon-list-item">
+                                                                                    <a href="cargo-insurance-2/"> <span class="elementor-icon-list-icon">
+							<i class="fa fa-caret-right" aria-hidden="true"></i>
+						</span>
+                                                                                        <span class="elementor-icon-list-text">Health Insurance</span>
+                                                                                    </a>
+                                                                                </li>
+                                                                            </ul>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </section>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="elementor-element elementor-element-c806083 elementor-column elementor-col-25 elementor-top-column" data-id="c806083" data-element_type="column">
+                                    <div class="elementor-column-wrap  elementor-element-populated">
+                                        <div class="elementor-widget-wrap">
+                                            <div class="elementor-element elementor-element-88f7731 margin-min elementor-widget elementor-widget-heading" data-id="88f7731" data-element_type="widget" data-widget_type="heading.default">
+                                                <div class="elementor-widget-container">
+                                                    <h2 class="elementor-heading-title elementor-size-default">our CONTACT</h2>
+                                                </div>
+                                            </div>
+                                            <div class="elementor-element elementor-element-d33d377 p-no-margin link-footer elementor-widget elementor-widget-text-editor" data-id="d33d377" data-element_type="widget" data-widget_type="text-editor.default">
+                                                <div class="elementor-widget-container">
+                                                    <div class="elementor-text-editor elementor-clearfix">
+                                                        <p><a href="tel:+62 21 5890 5226">+62 857 8157 1742</a></p>
+                                                        <p><a style="font-size: 14px;" href="mailto:<?= $row00['email_pengelola']?>">info@ddsaranamedika.id</a></p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="elementor-element elementor-element-8bf346a elementor-mobile-align-center custom-icon elementor-icon-list--layout-traditional elementor-widget elementor-widget-icon-list" data-id="8bf346a" data-element_type="widget" data-widget_type="icon-list.default">
+                                                <div class="elementor-widget-container">
+                                                    <ul class="elementor-icon-list-items">
+                                                        <li class="elementor-icon-list-item">
+                                                            <a href="contact-us/"> <span class="elementor-icon-list-icon">
+							<i class="fa fa-caret-right" aria-hidden="true"></i>
+						</span>
+                                                                <span class="elementor-icon-list-text">Contact Us</span>
+                                                            </a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="elementor-element elementor-element-d072895 elementor-mobile-align-center custom-icon elementor-icon-list--layout-traditional elementor-widget elementor-widget-icon-list" data-id="d072895" data-element_type="widget" data-widget_type="icon-list.default">
+                                                <div class="elementor-widget-container">
+                                                    <ul class="elementor-icon-list-items">
+                                                        <li class="elementor-icon-list-item">
+                                                            <a href="http://ddsaranamedika.id:2095/" target="_blank"> <span class="elementor-icon-list-icon">
+							<i class="fa fa-caret-right" aria-hidden="true"></i>
+						</span>
+                                                                <span class="elementor-icon-list-text">Webmail ( Staff Only )</span>
+                                                            </a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+        <!-- close output: jupiterx_custom_footer_template -->
+    </footer>
 
+    </div>
     <script type="text/javascript">
         (function() {
             document.body.className = document.body.className.replace('no-js', 'js');
@@ -336,7 +710,7 @@ $tahun = date("Y");
             "core_sub_forms_enabled": "1",
             "popups": []
         };
-        var ajaxurl = "index.html\/\/www.transpac-logistics.co.id\/wp-admin\/admin-ajax.php";
+        var ajaxurl = "\/\/www.transpac-logistics.co.id\/wp-admin\/admin-ajax.php";
         var pum_debug_vars = {
             "debug_mode_enabled": "Popup Maker: Debug Mode Enabled",
             "debug_started_at": "Debug started at:",

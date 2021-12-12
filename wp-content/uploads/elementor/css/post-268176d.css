@@ -32,8 +32,11 @@
 
 .elementor-268 .elementor-element.elementor-element-3bf34cc:not(.elementor-motion-effects-element-type-background),
 .elementor-268 .elementor-element.elementor-element-3bf34cc>.elementor-motion-effects-container>.elementor-motion-effects-layer {
-    background-image: url("../../../../../13.229.157.227_5050/wp-content/uploads/2019/04/about-us-header-1.png");
-    background-position: bottom center;
+    /* background-image: url("../../../../../13.229.157.227_5050/wp-content/uploads/2019/04/about-us-header-1.png"); */
+    background-position: center;
+    /* background-size: cover; */
+    /* background-position: 1px 190px; */
+    background-repeat: no-repeat;
     background-size: cover;
 }
 

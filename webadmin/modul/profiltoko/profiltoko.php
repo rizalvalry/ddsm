@@ -12,7 +12,7 @@
 	<form method="POST" action="" class="form-horizontal" enctype="multipart/form-data">
 			<div class="row">
 				<div class="col-sm-10">
-				<span style="font-size : 30px;">Profil Toko</span> beranda / profil toko
+				<span style="font-size : 30px;">Profil Website</span> beranda / profil 
 				</div>
 				<div class="col-sm-2">
 					<p class="pull-right">
@@ -24,7 +24,7 @@
 			<div class="row">
 			<div class="panel panel-default">
 				<div class="panel-heading">
-					<h4><i class="glyphicon glyphicon-list"></i>   Profil Toko</h4>
+					<h4><i class="glyphicon glyphicon-list"></i>   Profil Website</h4>
 					
 				</div>
 				<div class="panel-body">	
@@ -34,7 +34,7 @@
 						<img src="../gambar/toko/<?php echo $row['gambar']; ?>" class="img-thumbnail" />
 						
 					</div>
-					<div class="col-sm-9">
+					<div class="col-sm-12">
 					<?php				
 					if ( isset($_POST['simpan']) ){
 						$alamat_web     = $_POST['alamat_web'];					
@@ -69,7 +69,7 @@
 								$query->execute();
 								echo '<div class="alert alert-success" role="alert" style="font-size : 12px; padding : 5px;">';
 								echo '<button type="button" class="close" data-dismiss="alert">&times;</button>';
-								echo '<strong>SUKSES!</strong> Profil Toko Berhasil Diubah';
+								echo '<strong>SUKSES!</strong> Profil Website Berhasil Diubah';
 								echo '</div>';
 								echo "<meta http-equiv='refresh' content='1; url=?module=profiltoko'>";
 							} else {
@@ -86,7 +86,7 @@
 									$query->execute();
 									echo '<div class="alert alert-success" role="alert" style="font-size : 12px; padding : 5px;">';
 									echo '<button type="button" class="close" data-dismiss="alert">&times;</button>';
-									echo '<strong>SUKSES!</strong> Profil Toko Berhasil Diubah';
+									echo '<strong>SUKSES!</strong> Profil Website Berhasil Diubah';
 									echo '</div>';
 									echo "<meta http-equiv='refresh' content='1; url=?module=profiltoko'>";
 								}
@@ -102,7 +102,7 @@
 				?>
 							<ul class="nav nav-tabs">
 								<li class="active"><a data-toggle="tab" href="#toko">Profil Website</a></li>
-								<!-- <li><a data-toggle="tab" href="#surat">Surat</a></li> -->
+								<li><a data-toggle="tab" href="#surat">About Us</a></li>
 							</ul>
 							<div class="tab-content">
 								<div id="toko" class="tab-pane fade in active">
@@ -113,7 +113,7 @@
 										</div>
 									</div>
 									<div class="form-group">
-										<label class="control-label col-sm-2">Nama Toko</label>
+										<label class="control-label col-sm-2">Nama Website</label>
 										<div class="col-sm-4">
 											<input type="text" class="form-control" name="toko" value="<?php echo $row['nama_toko'];?>" required />
 										</div>
@@ -160,43 +160,14 @@
 											<input type="file" class="form-control" name="foto" />
 										</div>
 									</div>
-									<div class="form-group">
-										<label class="control-label col-sm-2">Deskripsi Toko</label>
+									
+								</div>
+								<!-- isi surat/about us -->
+								<div id="surat" class="tab-pane fade">
+								<div class="form-group">
+										<label class="control-label col-sm-2">Deskripsi Website</label>
 										<div class="col-sm-10">
 											<textarea name="deskripsi" rows="10" id="tinymce_basic"><?php echo $row['static_content']; ?></textarea>
-										</div>
-									</div>
-								</div>
-								<div id="surat" class="tab-pane fade">
-									<div class="form-group">
-										<label class="control-label col-sm-2">E-Mail Protokol</label>
-										<div class="col-sm-5">
-											<label class="radio-inline"><input type="radio" name="protokol" value="Surat" <?php echo ( $row['email_protokol'] == "Surat" ) ? "checked" : "";?> />Surat </label>
-											<label class="radio-inline"><input type="radio" name="protokol" value="SMTP" <?php echo ( $row['email_protokol'] == "SMTP" ) ? "checked" : "";?> />SMTP </label>
-										</div>
-									</div>
-									<div class="form-group">
-										<label class="control-label col-sm-2">E-Mail Pengelola</label>
-										<div class="col-sm-5">
-											<input type="email" class="form-control" name="email" value="<?php echo $row['email_pengelola'];?>" required />
-										</div>
-									</div>
-									<div class="form-group">
-										<label class="control-label col-sm-2">Password</label>
-										<div class="col-sm-5">
-											<input type="password" class="form-control" name="pass" value="<?php echo $row['password'];?>" />
-										</div>
-									</div>
-									<div class="form-group">
-										<label class="control-label col-sm-2">SMTP Hostname</label>
-										<div class="col-sm-5">
-											<input type="text" class="form-control" name="host" value="<?php echo $row['host'];?>" />
-										</div>
-									</div>
-									<div class="form-group">
-										<label class="control-label col-sm-2">E-SMTP Port</label>
-										<div class="col-sm-5">
-											<input type="text" class="form-control" name="port" value="<?php echo $row['port'];?>" />
 										</div>
 									</div>
 								</div>
