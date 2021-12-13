@@ -33,7 +33,7 @@
 		include "pages/kata-sandi.php";
 	} else if ( $_GET['module'] == "lupapassword" ){
 		include "pages/lupa-sandi.php";
-	} else if ( $_GET['module'] == "profilkami" ){
+	} else if ( $_GET['module'] == "aboutus" ){
 		include "pages/profil-kami.php";
 	} else if ( $_GET['module'] == "portofolio" ){
 		include "pages/halaman-statis.php";
