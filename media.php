@@ -54,32 +54,29 @@ $tahun = date("Y");
             padding: 0 !important;
         }
     </style>
-    <link rel='stylesheet' id='wp-block-library-css' href='https://ddsm.rimibyan.com/wp-includes/css/dist/block-library/style.min34b1.css' type='text/css' media='all' />
-    <link rel='stylesheet' id='contact-form-7-css' href='https://ddsm.rimibyan.com/wp-content/plugins/contact-form-7/includes/css/styles3c21.css' type='text/css' media='all' />
-    <link rel='stylesheet' id='jupiterx-css' href='https://ddsm.rimibyan.com/wp-content/uploads/jupiterx/compiler/jupiterx/b22a5b97359.css' type='text/css' media='all' />
-    <link rel='stylesheet' id='cherry-handler-css-css' href='https://ddsm.rimibyan.com/wp-content/plugins/jet-elements/cherry-framework/modules/cherry-handler/assets/css/cherry-handler-styles.min8c67.css' type='text/css' media='all' />
-    <link rel='stylesheet' id='jet-elements-css' href='https://ddsm.rimibyan.com/wp-content/plugins/jet-elements/assets/css/jet-elementsedf9.css' type='text/css' media='all' />
-    <link rel='stylesheet' id='jet-elements-skin-css' href='https://ddsm.rimibyan.com/wp-content/plugins/jet-elements/assets/css/jet-elements-skinedf9.css' type='text/css' media='all' />
-    <link rel='stylesheet' id='elementor-icons-css' href='https://ddsm.rimibyan.com/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.minb2f9.css' type='text/css' media='all' />
-    <link rel='stylesheet' id='font-awesome-css' href='https://ddsm.rimibyan.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/font-awesome.min1849.css' type='text/css' media='all' />
-    <link rel='stylesheet' id='elementor-animations-css' href='https://ddsm.rimibyan.com/wp-content/plugins/elementor/assets/lib/animations/animations.min355d.css' type='text/css' media='all' />
-    <link rel='stylesheet' id='elementor-frontend-css' href='https://ddsm.rimibyan.com/wp-content/plugins/elementor/assets/css/frontend.min355d.css' type='text/css' media='all' />
-    <link rel='stylesheet' id='raven-frontend-css' href='https://ddsm.rimibyan.com/wp-content/plugins/raven/assets/css/frontend.minf488.css' type='text/css' media='all' />
-    <link rel='stylesheet' id='elementor-global-css' href='https://ddsm.rimibyan.com/wp-content/uploads/elementor/css/global3efd.css' type='text/css' media='all' />
-    <link rel='stylesheet' id='elementor-post-268-css' href='https://ddsm.rimibyan.com/wp-content/uploads/elementor/css/post-268176d.css' type='text/css' media='all' />
-    <link rel='stylesheet' id='popup-maker-site-css' href='https://ddsm.rimibyan.com/wp-content/uploads/pum/pum-site-styles809a.css?generated=1574326896&amp;ver=1.8.3' type='text/css' media='all' />
-    <link rel='stylesheet' id='elementor-post-87-css' href='https://ddsm.rimibyan.com/wp-content/uploads/elementor/css/post-87ca65.css' type='text/css' media='all' />
-    <link rel='stylesheet' id='elementor-post-102-css' href='https://ddsm.rimibyan.com/wp-content/uploads/elementor/css/post-1025640.css' type='text/css' media='all' />
-    <script type='text/javascript' src='https://ddsm.rimibyan.com/wp-includes/js/jquery/jqueryb8ff.js'></script>
-    <script type='text/javascript' src='https://ddsm.rimibyan.com/wp-includes/js/jquery/jquery-migrate.min330a.js'></script>
-    <link rel='https://api.w.org/' href='https://ddsm.rimibyan.com/wp-json/index.html' />
-    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="<?= $row00['alamat_web']; ?>xmlrpc0db0.php?rsd" />
-    <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://ddsm.rimibyan.com/wp-includes/wlwmanifest.xml" />
+    <link rel='stylesheet' id='wp-block-library-css' href='wp-includes/css/dist/block-library/style.min34b1.css?ver=5.1.11' type='text/css' media='all' />
+    <link rel='stylesheet' id='contact-form-7-css' href='wp-content/plugins/contact-form-7/includes/css/styles3c21.css?ver=5.1.1' type='text/css' media='all' />
+    <link rel='stylesheet' id='jupiterx-css' href='wp-content/uploads/jupiterx/compiler/jupiterx/b22a5b97359.css?ver=1.2.0' type='text/css' media='all' />
+    <link rel='stylesheet' id='cherry-handler-css-css' href='wp-content/plugins/jet-elements/cherry-framework/modules/cherry-handler/assets/css/cherry-handler-styles.min8c67.css?ver=1.5.11' type='text/css' media='all' />
+    <link rel='stylesheet' id='jet-elements-css' href='wp-content/plugins/jet-elements/assets/css/jet-elementsedf9.css?ver=1.15.4' type='text/css' media='all' />
+    <link rel='stylesheet' id='jet-elements-skin-css' href='wp-content/plugins/jet-elements/assets/css/jet-elements-skinedf9.css?ver=1.15.4' type='text/css' media='all' />
+    <link rel='stylesheet' id='elementor-icons-css' href='wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.minb2f9.css?ver=4.3.0' type='text/css' media='all' />
+    <link rel='stylesheet' id='font-awesome-css' href='wp-content/plugins/elementor/assets/lib/font-awesome/css/font-awesome.min1849.css?ver=4.7.0' type='text/css' media='all' />
+    <link rel='stylesheet' id='elementor-animations-css' href='wp-content/plugins/elementor/assets/lib/animations/animations.min355d.css?ver=2.5.7' type='text/css' media='all' />
+    <link rel='stylesheet' id='elementor-frontend-css' href='wp-content/plugins/elementor/assets/css/frontend.min355d.css?ver=2.5.7' type='text/css' media='all' />
+    <link rel='stylesheet' id='raven-frontend-css' href='wp-content/plugins/raven/assets/css/frontend.minf488.css?ver=1.1.0' type='text/css' media='all' />
+    <link rel='stylesheet' id='elementor-global-css' href='wp-content/uploads/elementor/css/global3efd.css?ver=1564730200' type='text/css' media='all' />
+    <link rel='stylesheet' id='elementor-post-6-css' href='wp-content/uploads/elementor/css/post-6bcf5.css?ver=1619600746' type='text/css' media='all' />
+    <link rel='stylesheet' id='popup-maker-site-css' href='wp-content/uploads/pum/pum-site-styles809a.css?generated=1574326896&amp;ver=1.8.3' type='text/css' media='all' />
+    <link rel='stylesheet' id='elementor-post-87-css' href='wp-content/uploads/elementor/css/post-87ca65.css?ver=1564730204' type='text/css' media='all' />
+    <link rel='stylesheet' id='elementor-post-102-css' href='wp-content/uploads/elementor/css/post-1025640.css?ver=1564730205' type='text/css' media='all' />
+    <script type='text/javascript' src='wp-includes/js/jquery/jqueryb8ff.js?ver=1.12.4'></script>
+    <script type='text/javascript' src='wp-includes/js/jquery/jquery-migrate.min330a.js?ver=1.4.1'></script>
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="xmlrpc0db0.php?rsd" />
+    <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="wp-includes/wlwmanifest.xml" />
     <meta name="generator" content="WordPress 5.1.11" />
-    <link rel="canonical" href="index.html" />
-    <link rel='shortlink' href='<?= $row00['alamat_web']; ?>indexc524.html?p=268' />
-    <link rel="alternate" type="application/json+oembed" href="https://ddsm.rimibyan.com/wp-json/oembed/1.0/embeda402.json?url=http%3A%2F%2Fwww.transpac-logistics.co.id%2Fabout-us-2%2F" />
-    <link rel="alternate" type="text/xml+oembed" href="https://ddsm.rimibyan.com/wp-json/oembed/1.0/embed4832?url=http%3A%2F%2Fwww.transpac-logistics.co.id%2Fabout-us-2%2F&amp;format=xml" />
+    <link rel="alternate" type="application/json+oembed" href="wp-json/oembed/1.0/embede69e.json?url=http%3A%2F%2Fwww.transpac-logistics.co.id%2F" />
+    <link rel="alternate" type="text/xml+oembed" href="wp-json/oembed/1.0/embed8d8f?url=http%3A%2F%2Fwww.transpac-logistics.co.id%2F&amp;format=xml" />
     <style type="text/css">
         .recentcomments a {
             display: inline !important;
@@ -87,10 +84,10 @@ $tahun = date("Y");
             margin: 0 !important;
         }
     </style>
-    <link rel="pingback" href="<?= $row00['alamat_web']; ?>xmlrpc.php">
-    <link rel="icon" href="https://ddsm.rimibyan.com/wp-content/uploads/2019/03/cropped-logo-trans-paific-02-32x32.png" sizes="32x32" />
-    <link rel="icon" href="https://ddsm.rimibyan.com/wp-content/uploads/2019/03/cropped-logo-trans-paific-02-192x192.png" sizes="192x192" />
-    <link rel="apple-touch-icon-precomposed" href="https://ddsm.rimibyan.com/wp-content/uploads/2019/03/cropped-logo-trans-paific-02-180x180.png" />
+    <link rel="pingback" href="xmlrpc.php">
+    <link rel="icon" href="wp-content/uploads/2019/03/cropped-logo-trans-paific-02-32x32.png" sizes="32x32" />
+    <link rel="icon" href="wp-content/uploads/2019/03/cropped-logo-trans-paific-02-192x192.png" sizes="192x192" />
+    <link rel="apple-touch-icon-precomposed" href="wp-content/uploads/2019/03/cropped-logo-trans-paific-02-180x180.png" />
     <meta name="msapplication-TileImage" content="http://www.transpac-logistics.co.id/wp-content/uploads/2019/03/cropped-logo-trans-paific-02-270x270.png" />
     <style type="text/css" id="wp-custom-css">
         /* #nav-menu .custom-nav, #sticky-nav-menu .custom-nav {
@@ -101,7 +98,7 @@ $tahun = date("Y");
 #nav-menu .custom-nav a, #sticky-nav-menu .custom-nav a {
     margin-top: calc(50% - 52px);
     height: 40px !important;
-    background: #293189;
+    background: #19ac54;
     color: white;
     border-radius: 8px;
     text-transform: capitalize;
@@ -110,7 +107,7 @@ $tahun = date("Y");
         .custom-nav .raven-menu-item:before {
             /* 	content: "\f2f6"; */
             content: "";
-            background-image: url(https://ddsm.rimibyan.com/wp-content/uploads/2019/04/login-2.png);
+            background-image: url(wp-content/uploads/2019/04/login-2.png);
             width: 20px;
             height: 20px;
             background-size: contain;
@@ -129,7 +126,7 @@ $tahun = date("Y");
         }
         
         .link-footer a {
-            color: #293189;
+            color: #19ac54;
         }
         
         .margin-min {
@@ -180,7 +177,7 @@ $tahun = date("Y");
         }
         
         .Icon-Mail {
-            background-image: url('https://ddsm.rimibyan.com/wp-content/uploads/2019/11/mail_outline-24px.png');
+            background-image: url('wp-content/uploads/2019/11/mail_outline-24px.png');
             width: 20px;
             height: 20px;
             background-size: contain;
@@ -188,351 +185,26 @@ $tahun = date("Y");
             background-position: center;
             cursor: pointer;
         }
-		
-		*,
-*:before,
-*:after {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
 
-body {
-    background-color: #1d1f20;
-    font-family: 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
-}
+        /* display this row with flex and use wrap (= respect columns' widths) */
 
-#wrapper {
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 80em;
-}
-
-#container {
-    float: left;
-    padding: 1em;
-    width: 100%;
-}
-
-ol.organizational-chart,
-ol.organizational-chart ol,
-ol.organizational-chart li,
-ol.organizational-chart li > div {
-    position: relative;
-}
-
-ol.organizational-chart,
-ol.organizational-chart ol {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
-ol.organizational-chart {
-    text-align: center;
-}
-
-ol.organizational-chart ol {
-    padding-top: 1em;
-}
-
-ol.organizational-chart ol:before,
-ol.organizational-chart ol:after,
-ol.organizational-chart li:before,
-ol.organizational-chart li:after,
-ol.organizational-chart > li > div:before,
-ol.organizational-chart > li > div:after {
-    background-color: #00A85A;
-    content: '';
-    position: absolute;
-}
-
-ol.organizational-chart ol > li {
-    padding: 1em 0 0 1em;
-}
-
-ol.organizational-chart > li ol:before {
-    height: 1em;
-    left: 50%;
-    top: 0;
-    width: 3px;
-}
-
-ol.organizational-chart > li ol:after {
-    height: 3px;
-    left: 3px;
-    top: 1em;
-    width: 50%;
-}
-
-ol.organizational-chart > li ol > li:not(:last-of-type):before {
-    height: 3px;
-    left: 0;
-    top: 2em;
-    width: 1em;
-}
-
-ol.organizational-chart > li ol > li:not(:last-of-type):after {
-    height: 100%;
-    left: 0;
-    top: 0;
-    width: 3px;
-}
-
-ol.organizational-chart > li ol > li:last-of-type:before {
-    height: 3px;
-    left: 0;
-    top: 2em;
-    width: 1em;
-}
-
-ol.organizational-chart > li ol > li:last-of-type:after {
-    height: 2em;
-    left: 0;
-    top: 0;
-    width: 3px;
-}
-
-ol.organizational-chart li > div {
-    background-color: #fff;
-    border-radius: 3px;
-    min-height: 2em;
-    padding: 0.5em;
-}
-
-/*** PRIMARY ***/
-ol.organizational-chart > li > div {
-    /* background-color: #4472C4; */
-    margin-right: 1em;
-	border-radius: 12px;
-    box-shadow: 0 0 14px rgba(0,0,0,0.5);
-	/* background-image: linear-gradient(to right, #4472C4 , #02a85c); */
-    opacity: 0.9;
-    margin-right: 1em;
-    border-radius: 12px;
-    box-shadow: 0 0 14px rgba(0,0,0,0.5);
-}
-
-ol.organizational-chart > li > div:before {
-    bottom: 2em;
-    height: 3px;
-    right: -1em;
-    width: 1em;
-}
-
-ol.organizational-chart > li > div:first-of-type:after {
-    bottom: 0;
-    height: 2em;
-    right: -1em;
-    width: 3px;
-}
-
-ol.organizational-chart > li > div + div {
-    margin-top: 1em;
-}
-
-ol.organizational-chart > li > div + div:after {
-    height: calc(100% + 1em);
-    right: -1em;
-    top: -1em;
-    width: 3px;
-}
-
-/*** SECONDARY ***/
-ol.organizational-chart > li > ol:before {
-    left: inherit;
-    right: 0;
-}
-
-ol.organizational-chart > li > ol:after {
-    left: 0;
-    width: 100%;
-}
-
-ol.organizational-chart > li > ol > li > div {
-    /* background-color: #ED7D31; */
-	/* background-image: linear-gradient(to right, red , #02a85c); */
-	border-radius: 12px;
-    box-shadow: 0 0 14px rgba(0,0,0,0.5);
-}
-
-/*** TERTIARY ***/
-ol.organizational-chart > li > ol > li > ol > li > div {
-    background-color: #fd6470;
-}
-
-/*** QUATERNARY ***/
-ol.organizational-chart > li > ol > li > ol > li > ol > li > div {
-    background-color: #fca858;
-}
-
-/*** QUINARY ***/
-ol.organizational-chart > li > ol > li > ol > li > ol > li > ol > li > div {
-    background-color: #fddc32;
-}
-
-/*** MEDIA QUERIES ***/
-@media only screen and ( min-width: 64em ) {
-
-    ol.organizational-chart {
-        margin-left: -1em;
-        margin-right: -1em;
-    }
-
-    /* PRIMARY */
-    ol.organizational-chart > li > div {
-        display: inline-block;
-        float: none;
-        margin: 0 1em 1em 1em;
-        vertical-align: bottom;
-    }
-
-    ol.organizational-chart > li > div:only-of-type {
-        margin-bottom: 0;
-        width: calc((100% / 1) - 2em - 4px);
-    }
-
-    ol.organizational-chart > li > div:first-of-type:nth-last-of-type(2),
-    ol.organizational-chart > li > div:first-of-type:nth-last-of-type(2) ~ div {
-        width: calc((100% / 2) - 2em - 4px);
-    }
-
-    ol.organizational-chart > li > div:first-of-type:nth-last-of-type(3),
-    ol.organizational-chart > li > div:first-of-type:nth-last-of-type(3) ~ div {
-        width: calc((100% / 3) - 2em - 4px);
-    }
-
-    ol.organizational-chart > li > div:first-of-type:nth-last-of-type(4),
-    ol.organizational-chart > li > div:first-of-type:nth-last-of-type(4) ~ div {
-        width: calc((100% / 4) - 2em - 4px);
-    }
-
-    ol.organizational-chart > li > div:first-of-type:nth-last-of-type(5),
-    ol.organizational-chart > li > div:first-of-type:nth-last-of-type(5) ~ div {
-        width: calc((100% / 5) - 2em - 4px);
-    }
-
-    ol.organizational-chart > li > div:before,
-    ol.organizational-chart > li > div:after {
-        bottom: -1em!important;
-        top: inherit!important;
-    }
-
-    ol.organizational-chart > li > div:before {
-        height: 1em!important;
-        left: 50%!important;
-        width: 3px!important;
-    }
-
-    ol.organizational-chart > li > div:only-of-type:after {
-        display: none;
-    }
-
-    ol.organizational-chart > li > div:first-of-type:not(:only-of-type):after,
-    ol.organizational-chart > li > div:last-of-type:not(:only-of-type):after {
-        bottom: -1em;
-        height: 3px;
-        width: calc(50% + 1em + 3px);
-    }
-
-    ol.organizational-chart > li > div:first-of-type:not(:only-of-type):after {
-        left: calc(50% + 3px);
-    }
-
-    ol.organizational-chart > li > div:last-of-type:not(:only-of-type):after {
-        left: calc(-1em - 3px);
-    }
-
-    ol.organizational-chart > li > div + div:not(:last-of-type):after {
-        height: 3px;
-        left: -2em;
-        width: calc(100% + 4em);
-    }
-
-    /* SECONDARY */
-    ol.organizational-chart > li > ol {
+        .row-flex {
         display: flex;
-        flex-wrap: nowrap;
-    }
+        flex-wrap: wrap;
+        }
 
-    ol.organizational-chart > li > ol:before,
-    ol.organizational-chart > li > ol > li:before {
-        height: 1em!important;
-        left: 50%!important;
-        top: 0!important;
-        width: 3px!important;
-    }
 
-    ol.organizational-chart > li > ol:after {
-        display: none;
-    }
+        /* vertical spacing between columns */
 
-    ol.organizational-chart > li > ol > li {
-        flex-grow: 1;
-        padding-left: 1em;
-        padding-right: 1em;
-        padding-top: 1em;
-    }
+        /* [class*="col-"] {
+        margin-bottom: 30px;
+        } */
 
-    ol.organizational-chart > li > ol > li:only-of-type {
-        padding-top: 0;
-    }
-
-    ol.organizational-chart > li > ol > li:only-of-type:before,
-    ol.organizational-chart > li > ol > li:only-of-type:after {
-        display: none;
-    }
-
-    ol.organizational-chart > li > ol > li:first-of-type:not(:only-of-type):after,
-    ol.organizational-chart > li > ol > li:last-of-type:not(:only-of-type):after {
-        height: 3px;
-        top: 0;
-        width: 50%;
-    }
-
-    ol.organizational-chart > li > ol > li:first-of-type:not(:only-of-type):after {
-        left: 50%;
-    }
-
-    ol.organizational-chart > li > ol > li:last-of-type:not(:only-of-type):after {
-        left: 0;
-    }
-
-    ol.organizational-chart > li > ol > li + li:not(:last-of-type):after {
-        height: 3px;
-        left: 0;
-        top: 0;
-        width: 100%;
-    }
-
-}
-
-	.colorfull-hirarky {
-		color:white;
-	}
-
-	ol.organizational-chart > li > ol > li > ol > li > .dirop {
-    	/* background-color: #A5A5A5; */
-		background-image: linear-gradient(to right, #A5A5A5 , #02a85c);
-	}
-	ol.organizational-chart > li > ol > li > ol > li > .dirkeu {
-    	/* background-color: #00A859; */
-		background-image: linear-gradient(to right, #01BC5A , #02a85c);
-	}
-	ol.organizational-chart > li > ol > li > ol > li > .dirbis {
-    	/* background-color: #7030A0; */
-		background-image: linear-gradient(to right, #7030A0 , #02a85c);
-	}
-
-	ol.organizational-chart > li > ol > li > ol > li > div {
-    border-radius: 12px;
-    box-shadow: 0 0 14px rgba(0,0,0,0.5);
-	}
-
-	ol.organizational-chart > li > ol > li > ol > li > .dirut {
-    	background-color: #7030A0;
-	}
-
+        .content {
+        height: 100%;
+        padding: 20px 20px 10px;
+        color: #fff;
+        }
     </style>
 </head>
 
