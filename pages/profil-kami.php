@@ -762,7 +762,7 @@ ol.organizational-chart > li > ol > li > ol > li > ol > li > ol > li > div {
 																									</div>
 
 																									<button type="button" class="pum-close popmake-close" aria-label="Close">
-																									x            </button>
+																									<i class="ico-times" role="img" aria-label="Cancel"></i>            </button>
 
 																								</div>
 																							</div>

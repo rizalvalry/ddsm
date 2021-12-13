@@ -205,6 +205,15 @@ $tahun = date("Y");
         padding: 20px 20px 10px;
         color: #fff;
         }
+
+        [class^="ico-"], [class*=" ico-"]{
+        font: normal 1em/1 Arial, sans-serif;
+        display: inline-block;
+        }
+
+
+        .ico-times:before{ content: "\2716"; }
+        .ico-check:before{ content: "\2714"; }
     </style>
 </head>
 
