@@ -473,14 +473,26 @@ ol.organizational-chart > li > ol > li > ol > li > ol > li > ol > li > div {
 	ol.organizational-chart > li > ol > li > ol > li > .dirop {
     	/* background-color: #A5A5A5; */
 		background-image: linear-gradient(to right, #A5A5A5 , #02a85c);
+		-webkit-transform: skew(20deg);
+		-moz-transform: skew(20deg);
+		-o-transform: skew(20deg);
+		-ms-transform: skew(20deg);
 	}
 	ol.organizational-chart > li > ol > li > ol > li > .dirkeu {
     	/* background-color: #00A859; */
 		background-image: linear-gradient(to right, #01BC5A , #02a85c);
+		-webkit-transform: skew(20deg);
+		-moz-transform: skew(20deg);
+		-o-transform: skew(20deg);
+		-ms-transform: skew(20deg);
 	}
 	ol.organizational-chart > li > ol > li > ol > li > .dirbis {
     	/* background-color: #7030A0; */
 		background-image: linear-gradient(to right, #7030A0 , #02a85c);
+		-webkit-transform: skew(20deg);
+		-moz-transform: skew(20deg);
+		-o-transform: skew(20deg);
+		-ms-transform: skew(20deg);
 	}
 
 	ol.organizational-chart > li > ol > li > ol > li > div {
@@ -671,19 +683,19 @@ ol.organizational-chart > li > ol > li > ol > li > ol > li > ol > li > div {
 																							<ol>	
 																								<li>
 																									<div class="dirop">
-																										<h2>Secondary</h2>
+																										<h2>Direktur Operasional : dr. Ihsan Satria</h2>
 																									</div>
 																									
 																								</li>
 																								<li>
 																									<div class="dirkeu">
-																										<h2>Secondary</h2>
+																										<h2>Direktur Keuangan : Poppy Jane Intania, S.SiT., M.Kes</h2>
 																									</div>
 																									
 																								</li>
 																								<li>
 																									<div class="dirbis">
-																										<h2>Secondary</h2>
+																										<h2>Direktur Pengembangan Bisnis : drg. Wahyu Prabowo</h2>
 																									</div>
 																								
 																								</li>
