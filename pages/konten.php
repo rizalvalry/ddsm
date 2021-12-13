@@ -20,9 +20,9 @@
                                         <div class="elementor-column-wrap  elementor-element-populated">
                                             <div class="elementor-widget-wrap">
                                                 <div class="elementor-element elementor-element-929a01d elementor-widget elementor-widget-heading" data-id="929a01d" data-element_type="widget" data-widget_type="heading.default">
-                                                    <div class="elementor-widget-container">
+                                                    <!-- <div class="elementor-widget-container">
                                                         <h2 class="elementor-heading-title elementor-size-default"><?=$rowslider['deskripsi']?></h2>
-                                                    </div>
+                                                    </div> -->
                                                 </div>
                                                 <!-- <div class="elementor-element elementor-element-fcbc73c no-margin elementor-widget elementor-widget-text-editor" data-id="fcbc73c" data-element_type="widget" data-widget_type="text-editor.default">
                                                     <div class="elementor-widget-container">
@@ -34,12 +34,12 @@
                                                 <div class="elementor-element elementor-element-bd3be03 elementor-mobile-align-center elementor-widget elementor-widget-raven-button" data-id="bd3be03" data-element_type="widget" data-widget_type="raven-button.default">
                                                     <div class="elementor-widget-container">
                                                         <div class="raven-widget-wrapper">
-                                                            <a class="raven-button raven-button-link" href="<?=$rowslider['link_slide']?>">
+                                                            <!-- <a class="raven-button raven-button-link" href="<?=$rowslider['link_slide']?>">
                                                                 <span class="raven-button-content">
 										<span class="raven-button-text">
-                                        <?=$rowslider['judul_slide']?>										</span>
+                                        <?=$rowslider['judul_slide']?>										
                                                                 </span>
-                                                            </a>
+                                                            </a> -->
                                                         </div>
                                                     </div>
                                                 </div>

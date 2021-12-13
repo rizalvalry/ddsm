@@ -54,24 +54,25 @@ $tahun = date("Y");
             padding: 0 !important;
         }
     </style>
-    <link rel='stylesheet' id='wp-block-library-css' href='wp-includes/css/dist/block-library/style.min34b1.css?ver=5.1.11' type='text/css' media='all' />
-    <link rel='stylesheet' id='contact-form-7-css' href='wp-content/plugins/contact-form-7/includes/css/styles3c21.css?ver=5.1.1' type='text/css' media='all' />
-    <link rel='stylesheet' id='jupiterx-css' href='wp-content/uploads/jupiterx/compiler/jupiterx/b22a5b97359.css?ver=1.2.0' type='text/css' media='all' />
-    <link rel='stylesheet' id='cherry-handler-css-css' href='wp-content/plugins/jet-elements/cherry-framework/modules/cherry-handler/assets/css/cherry-handler-styles.min8c67.css?ver=1.5.11' type='text/css' media='all' />
-    <link rel='stylesheet' id='jet-elements-css' href='wp-content/plugins/jet-elements/assets/css/jet-elementsedf9.css?ver=1.15.4' type='text/css' media='all' />
-    <link rel='stylesheet' id='jet-elements-skin-css' href='wp-content/plugins/jet-elements/assets/css/jet-elements-skinedf9.css?ver=1.15.4' type='text/css' media='all' />
-    <link rel='stylesheet' id='elementor-icons-css' href='wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.minb2f9.css?ver=4.3.0' type='text/css' media='all' />
-    <link rel='stylesheet' id='font-awesome-css' href='wp-content/plugins/elementor/assets/lib/font-awesome/css/font-awesome.min1849.css?ver=4.7.0' type='text/css' media='all' />
-    <link rel='stylesheet' id='elementor-animations-css' href='wp-content/plugins/elementor/assets/lib/animations/animations.min355d.css?ver=2.5.7' type='text/css' media='all' />
-    <link rel='stylesheet' id='elementor-frontend-css' href='wp-content/plugins/elementor/assets/css/frontend.min355d.css?ver=2.5.7' type='text/css' media='all' />
-    <link rel='stylesheet' id='raven-frontend-css' href='wp-content/plugins/raven/assets/css/frontend.minf488.css?ver=1.1.0' type='text/css' media='all' />
-    <link rel='stylesheet' id='elementor-global-css' href='wp-content/uploads/elementor/css/global3efd.css?ver=1564730200' type='text/css' media='all' />
-    <link rel='stylesheet' id='elementor-post-6-css' href='wp-content/uploads/elementor/css/post-6bcf5.css?ver=1619600746' type='text/css' media='all' />
-    <link rel='stylesheet' id='popup-maker-site-css' href='wp-content/uploads/pum/pum-site-styles809a.css?generated=1574326896&amp;ver=1.8.3' type='text/css' media='all' />
-    <link rel='stylesheet' id='elementor-post-87-css' href='wp-content/uploads/elementor/css/post-87ca65.css?ver=1564730204' type='text/css' media='all' />
-    <link rel='stylesheet' id='elementor-post-102-css' href='wp-content/uploads/elementor/css/post-1025640.css?ver=1564730205' type='text/css' media='all' />
-    <script type='text/javascript' src='wp-includes/js/jquery/jqueryb8ff.js?ver=1.12.4'></script>
-    <script type='text/javascript' src='wp-includes/js/jquery/jquery-migrate.min330a.js?ver=1.4.1'></script>
+    <link rel='stylesheet' id='wp-block-library-css' href='wp-includes/css/dist/block-library/style.min34b1.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='contact-form-7-css' href='wp-content/plugins/contact-form-7/includes/css/styles3c21.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='jupiterx-css' href='wp-content/uploads/jupiterx/compiler/jupiterx/b22a5b97359.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='cherry-handler-css-css' href='wp-content/plugins/jet-elements/cherry-framework/modules/cherry-handler/assets/css/cherry-handler-styles.min8c67.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='jet-elements-css' href='wp-content/plugins/jet-elements/assets/css/jet-elementsedf9.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='jet-elements-skin-css' href='wp-content/plugins/jet-elements/assets/css/jet-elements-skinedf9.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='elementor-icons-css' href='wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.minb2f9.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='font-awesome-css' href='wp-content/plugins/elementor/assets/lib/font-awesome/css/font-awesome.min1849.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='elementor-animations-css' href='wp-content/plugins/elementor/assets/lib/animations/animations.min355d.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='elementor-frontend-css' href='wp-content/plugins/elementor/assets/css/frontend.min355d.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='raven-frontend-css' href='wp-content/plugins/raven/assets/css/frontend.minf488.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='elementor-global-css' href='wp-content/uploads/elementor/css/global3efd.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='elementor-post-6-css' href='wp-content/uploads/elementor/css/post-6bcf5.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='popup-maker-site-css' href='wp-content/uploads/pum/pum-site-styles809a.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='elementor-post-87-css' href='wp-content/uploads/elementor/css/post-87ca65.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='elementor-post-102-css' href='wp-content/uploads/elementor/css/post-1025640.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='elementor-post-268-css' href='wp-content/uploads/elementor/css/post-268176d.css' type='text/css' media='all' />
+    <script type='text/javascript' src='wp-includes/js/jquery/jqueryb8ff.js'></script>
+    <script type='text/javascript' src='wp-includes/js/jquery/jquery-migrate.min330a.js'></script>
     <link rel="EditURI" type="application/rsd+xml" title="RSD" href="xmlrpc0db0.php?rsd" />
     <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="wp-includes/wlwmanifest.xml" />
     <meta name="generator" content="WordPress 5.1.11" />
@@ -83,6 +84,13 @@ $tahun = date("Y");
             padding: 0 !important;
             margin: 0 !important;
         }
+        /* .test {
+            font-size:12em;
+            color : white;
+            background-color:red;
+            display:block;
+            text-align:center;
+        } */
     </style>
     <link rel="pingback" href="xmlrpc.php">
     <!-- <link rel="icon" href="wp-content/uploads/2019/03/cropped-logo-trans-paific-02-32x32.png" sizes="32x32" /> -->
@@ -647,7 +655,7 @@ $tahun = date("Y");
             document.body.className = document.body.className.replace('no-js', 'js');
         }());
     </script>
-    <link rel='stylesheet' id='elementor-post-99-css' href='wp-content/uploads/elementor/css/post-999d20.css?ver=1573547849' type='text/css' media='all' />
+    <link rel='stylesheet' id='elementor-post-99-css' href='wp-content/uploads/elementor/css/post-999d20.css' type='text/css' media='all' />
     <script type='text/javascript'>
         /* <![CDATA[ */
         var wp_load_style = ["wp-block-library.css", "contact-form-7.html", "jupiterx.html", "cherry-handler-css.html", "jet-elements.html", "jet-elements-skin.html", "elementor-icons.html", "font-awesome.html", "elementor-animations.html", "elementor-frontend.html", "raven-frontend.html", "elementor-global.html", "elementor-post-6.html", "popup-maker-site.html", "elementor-post-87.html", "elementor-post-102.css"];
@@ -659,7 +667,7 @@ $tahun = date("Y");
         };
         /* ]]> */
     </script>
-    <script type='text/javascript' src='wp-content/plugins/jet-elements/cherry-framework/modules/cherry-js-core/assets/js/min/cherry-js-core.min8c67.js?ver=1.5.11'></script>
+    <script type='text/javascript' src='wp-content/plugins/jet-elements/cherry-framework/modules/cherry-js-core/assets/js/min/cherry-js-core.min8c67.js'></script>
     <!-- <script type='text/javascript'>
         /* <![CDATA[ */
         var wpcf7 = {
@@ -670,9 +678,9 @@ $tahun = date("Y");
         };
         /* ]]> */
     </script> -->
-    <script type='text/javascript' src='wp-content/plugins/contact-form-7/includes/js/scripts3c21.js?ver=5.1.1'></script>
-    <script type='text/javascript' src='wp-includes/js/underscore.min4511.js?ver=1.8.3'></script>
-    <script type='text/javascript' src='wp-content/uploads/jupiterx/compiler/jupiterx/9f110407359.js?ver=1.2.0'></script>
+    <script type='text/javascript' src='wp-content/plugins/contact-form-7/includes/js/scripts3c21.js'></script>
+    <script type='text/javascript' src='wp-includes/js/underscore.min4511.js'></script>
+    <script type='text/javascript' src='wp-content/uploads/jupiterx/compiler/jupiterx/9f110407359.js'></script>
     <script type='text/javascript'>
         /* <![CDATA[ */
         var jet_subscribe_form_ajax = {
@@ -694,9 +702,9 @@ $tahun = date("Y");
         // };
         /* ]]> */
     </script>
-    <script type='text/javascript' src='wp-content/plugins/jet-elements/cherry-framework/modules/cherry-handler/assets/js/min/cherry-handler.min8c67.js?ver=1.5.11'></script>
-    <script type='text/javascript' src='wp-includes/js/jquery/ui/core.mine899.js?ver=1.11.4'></script>
-    <script type='text/javascript' src='wp-includes/js/jquery/ui/position.mine899.js?ver=1.11.4'></script>
+    <script type='text/javascript' src='wp-content/plugins/jet-elements/cherry-framework/modules/cherry-handler/assets/js/min/cherry-handler.min8c67.js'></script>
+    <script type='text/javascript' src='wp-includes/js/jquery/ui/core.mine899.js'></script>
+    <script type='text/javascript' src='wp-includes/js/jquery/ui/position.mine899.js'></script>
     <script type='text/javascript'>
         /* <![CDATA[ */
         var pum_vars = {
@@ -1281,15 +1289,15 @@ $tahun = date("Y");
         };
         /* ]]> */
     </script>
-    <script type='text/javascript' src='wp-content/uploads/pum/pum-site-scriptsc195.js?defer&amp;generated=1574326896&amp;ver=1.8.3'></script>
+    <script type='text/javascript' src='wp-content/uploads/pum/pum-site-scriptsc195.js'></script>
     <script type='text/javascript' src='wp-includes/js/wp-embed.min34b1.js?ver=5.1.11'></script>
-    <script type='text/javascript' src='wp-content/plugins/raven/assets/lib/smartmenus/jquery.smartmenus.minf488.js?ver=1.1.0'></script>
-    <script type='text/javascript' src='wp-content/plugins/elementor/assets/lib/slick/slick.minc245.js?ver=1.8.1'></script>
-    <script type='text/javascript' src='wp-content/plugins/jet-elements/assets/js/lib/tweenjs/tweenjs.min4c56.js?ver=2.0.2'></script>
-    <script type='text/javascript' src='wp-content/plugins/elementor/assets/js/frontend-modules355d.js?ver=2.5.7'></script>
-    <script type='text/javascript' src='wp-content/plugins/elementor/assets/lib/dialog/dialog.min6996.js?ver=4.7.1'></script>
-    <script type='text/javascript' src='wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min05da.js?ver=4.0.2'></script>
-    <script type='text/javascript' src='wp-content/plugins/elementor/assets/lib/swiper/swiper.min4f24.js?ver=4.4.6'></script>
+    <script type='text/javascript' src='wp-content/plugins/raven/assets/lib/smartmenus/jquery.smartmenus.minf488.js'></script>
+    <script type='text/javascript' src='wp-content/plugins/elementor/assets/lib/slick/slick.minc245.js'></script>
+    <script type='text/javascript' src='wp-content/plugins/jet-elements/assets/js/lib/tweenjs/tweenjs.min4c56.js'></script>
+    <script type='text/javascript' src='wp-content/plugins/elementor/assets/js/frontend-modules355d.js'></script>
+    <script type='text/javascript' src='wp-content/plugins/elementor/assets/lib/dialog/dialog.min6996.js'></script>
+    <script type='text/javascript' src='wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min05da.js'></script>
+    <script type='text/javascript' src='wp-content/plugins/elementor/assets/lib/swiper/swiper.min4f24.js'></script>
     <script type='text/javascript'>
         var elementorFrontendConfig = {
             "environmentMode": {
@@ -1787,7 +1795,7 @@ $tahun = date("Y");
         };
         /* ]]> */
     </script>
-    <script type='text/javascript' src='wp-content/plugins/jet-elements/assets/js/jet-elementsedf9.js?ver=1.15.4'></script>
+    <script type='text/javascript' src='wp-content/plugins/jet-elements/assets/js/jet-elementsedf9.js'></script>
     <script type='text/javascript'>
         /* <![CDATA[ */
         var _wpUtilSettings = {
@@ -1797,8 +1805,8 @@ $tahun = date("Y");
         };
         /* ]]> */
     </script>
-    <script type='text/javascript' src='wp-includes/js/wp-util.min34b1.js?ver=5.1.11'></script>
-    <script type='text/javascript' src='wp-content/plugins/raven/assets/js/frontend.minf488.js?ver=1.1.0'></script>
+    <script type='text/javascript' src='wp-includes/js/wp-util.min34b1.js'></script>
+    <script type='text/javascript' src='wp-content/plugins/raven/assets/js/frontend.minf488.js'></script>
 </body>
 
 
