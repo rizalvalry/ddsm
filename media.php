@@ -258,7 +258,7 @@ $tahun = date("Y");
                                                     <div class="elementor-widget-container">
                                                         <nav class="raven-nav-menu-main raven-nav-menu-horizontal">
                                                             <ul id="menu-70220dc" class="raven-nav-menu">
-                                                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-6 current_page_item menu-item-20"><a href="" aria-current="page" class="raven-menu-item raven-menu-item-<?php echo (basename($_SERVER['PHP_SELF'])=="home") ? "" : "" ?>">Home</a></li>
+                                                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-6 current_page_item menu-item-20"><a href="<?= $row00['alamat_web']; ?>" aria-current="page" class="raven-menu-item raven-menu-item-">Home</a></li>
                                                             <?php
                                                                 $query4  = $db->prepare("SELECT nama_menu,link FROM menuutama WHERE aktif=? AND lokasi=? ORDER BY urutan ASC");
                                                                 $query4->bind_param("ss", $aktif4,$lokasi4);
@@ -281,7 +281,7 @@ $tahun = date("Y");
                                                         <nav class="raven-nav-menu-mobile raven-nav-menu-dropdown">
                                                             <div class="raven-container">
                                                                 <ul id="menu-70220dc" class="raven-nav-menu">
-                                                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-6 current_page_item menu-item-20"><a href="" aria-current="page" class="raven-menu-item raven-menu-item-">Home</a></li>
+                                                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-6 current_page_item menu-item-20"><a href="<?= $row00['alamat_web']; ?>" aria-current="page" class="raven-menu-item raven-menu-item-">Home</a></li>
                                                                     <?php
                                                                         $query4  = $db->prepare("SELECT nama_menu,link FROM menuutama WHERE aktif=? AND lokasi=? ORDER BY urutan ASC");
                                                                         $query4->bind_param("ss", $aktif4,$lokasi4);
@@ -356,7 +356,7 @@ $tahun = date("Y");
                                                     <div class="elementor-widget-container">
                                                         <nav class="raven-nav-menu-main raven-nav-menu-horizontal">
                                                             <ul id="menu-40464e6" class="raven-nav-menu">
-                                                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-6 current_page_item menu-item-20"><a href="" aria-current="page" class="raven-menu-item raven-menu-item-">Home</a></li>
+                                                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-6 current_page_item menu-item-20"><a href="<?= $row00['alamat_web']; ?>" aria-current="page" class="raven-menu-item raven-menu-item-">Home</a></li>
                                                             <?php
                                                                         $query4  = $db->prepare("SELECT nama_menu,link FROM menuutama WHERE aktif=? AND lokasi=? ORDER BY urutan ASC");
                                                                         $query4->bind_param("ss", $aktif4,$lokasi4);
@@ -379,7 +379,7 @@ $tahun = date("Y");
                                                         <nav class="raven-nav-menu-mobile raven-nav-menu-dropdown">
                                                             <div class="raven-container">
                                                                 <ul id="menu-40464e6" class="raven-nav-menu">
-                                                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-6 current_page_item menu-item-20"><a href="" aria-current="page" class="raven-menu-item raven-menu-item-">Home</a></li>
+                                                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-6 current_page_item menu-item-20"><a href="<?= $row00['alamat_web']; ?>" aria-current="page" class="raven-menu-item raven-menu-item-">Home</a></li>
                                                             <?php
                                                                         $query4  = $db->prepare("SELECT nama_menu,link FROM menuutama WHERE aktif=? AND lokasi=? ORDER BY urutan ASC");
                                                                         $query4->bind_param("ss", $aktif4,$lokasi4);
@@ -464,40 +464,33 @@ $tahun = date("Y");
                                                 <div class="elementor-widget-container">
                                                     <ul class="elementor-icon-list-items">
                                                         <li class="elementor-icon-list-item">
-                                                            <a href=""> <span class="elementor-icon-list-icon">
+                                                            <a href="<?= $row00['alamat_web']; ?>"> <span class="elementor-icon-list-icon">
 							<i class="fa fa-caret-right" aria-hidden="true"></i>
 						</span>
                                                                 <span class="elementor-icon-list-text">Home</span>
                                                             </a>
                                                         </li>
+                                                        <?php
+                                                                        $query4  = $db->prepare("SELECT nama_menu,link FROM menuutama WHERE aktif=? AND lokasi=? ORDER BY urutan ASC");
+                                                                        $query4->bind_param("ss", $aktif4,$lokasi4);
+                                                                        $lokasi4 = "Public";
+                                                                        $aktif4  = "Y";
+                                                                        $query4->execute();
+                                                                        $result4 = $query4->get_result();
+                                                                        while ( $row4 = $result4->fetch_assoc() ){ ?>
+
                                                         <li class="elementor-icon-list-item">
-                                                            <a href="about-us-2/"> <span class="elementor-icon-list-icon">
-							<i class="fa fa-caret-right" aria-hidden="true"></i>
-						</span>
-                                                                <span class="elementor-icon-list-text">About Us</span>
+                                                            <a href="<?= $row4['link']; ?>"> <span class="elementor-icon-list-icon">
+							                                <i class="fa fa-caret-right" aria-hidden="true"></i> </span>
+                                                                <span class="elementor-icon-list-text"><?= $row4['nama_menu']; ?></span>
                                                             </a>
                                                         </li>
-                                                        <li class="elementor-icon-list-item">
-                                                            <a href="request-for-quote/"> <span class="elementor-icon-list-icon">
-							<i class="fa fa-caret-right" aria-hidden="true"></i>
-						</span>
-                                                                <span class="elementor-icon-list-text">Request for Quote</span>
-                                                            </a>
-                                                        </li>
-                                                        <li class="elementor-icon-list-item">
-                                                            <a href="network-partner/"> <span class="elementor-icon-list-icon">
-							<i class="fa fa-caret-right" aria-hidden="true"></i>
-						</span>
-                                                                <span class="elementor-icon-list-text">Network Partners</span>
-                                                            </a>
-                                                        </li>
-                                                        <li class="elementor-icon-list-item">
-                                                            <a href="technology/"> <span class="elementor-icon-list-icon">
-							<i class="fa fa-caret-right" aria-hidden="true"></i>
-						</span>
-                                                                <span class="elementor-icon-list-text">Technology</span>
-                                                            </a>
-                                                        </li>
+
+                                                                    <?php } ?>
+                                                        
+                                                        
+                                                      
+                                                       
                                                     </ul>
                                                 </div>
                                             </div>

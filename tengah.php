@@ -59,6 +59,8 @@
 		include "pages/ongkir.php";
 	} else if ( $_GET['module'] == "semuaartikel" ){
 		include "pages/semua-artikel.php";
+	} else if ( $_GET['module'] == "technology" ){
+		include "pages/technology.php";
 	} else {
 		echo "Page Not Found";
 	}
