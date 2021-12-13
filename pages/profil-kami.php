@@ -69,7 +69,7 @@
         .custom-nav .raven-menu-item:before {
             /* 	content: "\f2f6"; */
             content: "";
-            background-image: url(https://ddsm.rimibyan.com/wp-content/uploads/2019/04/login-2.png);
+            background-image: url('https://ddsm.rimibyan.com/wp-content/uploads/2019/04/login-2.png');
             width: 20px;
             height: 20px;
             background-size: contain;
