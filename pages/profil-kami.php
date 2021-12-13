@@ -37,8 +37,8 @@
     <meta name="generator" content="WordPress 5.1.11" />
     <link rel="canonical" href="index.html" />
     <link rel='shortlink' href='<?= $row00['alamat_web']; ?>indexc524.html?p=268' />
-    <link rel="alternate" type="application/json+oembed" href="https://ddsm.rimibyan.com/wp-json/oembed/1.0/embeda402.json?url=http%3A%2F%2Fwww.transpac-logistics.co.id%2Fabout-us-2%2F" />
-    <link rel="alternate" type="text/xml+oembed" href="https://ddsm.rimibyan.com/wp-json/oembed/1.0/embed4832?url=http%3A%2F%2Fwww.transpac-logistics.co.id%2Fabout-us-2%2F&amp;format=xml" />
+    <!-- <link rel="alternate" type="application/json+oembed" href="https://ddsm.rimibyan.com/wp-json/oembed/1.0/embeda402.json?url=http%3A%2F%2Fwww.transpac-logistics.co.id%2Fabout-us-2%2F" /> -->
+    <!-- <link rel="alternate" type="text/xml+oembed" href="https://ddsm.rimibyan.com/wp-json/oembed/1.0/embed4832?url=http%3A%2F%2Fwww.transpac-logistics.co.id%2Fabout-us-2%2F&amp;format=xml" /> -->
     <style type="text/css">
         .recentcomments a {
             display: inline !important;
@@ -47,10 +47,10 @@
         }
     </style>
     <link rel="pingback" href="<?= $row00['alamat_web']; ?>xmlrpc.php">
-    <link rel="icon" href="https://ddsm.rimibyan.com/wp-content/uploads/2019/03/cropped-logo-trans-paific-02-32x32.png" sizes="32x32" />
-    <link rel="icon" href="https://ddsm.rimibyan.com/wp-content/uploads/2019/03/cropped-logo-trans-paific-02-192x192.png" sizes="192x192" />
-    <link rel="apple-touch-icon-precomposed" href="https://ddsm.rimibyan.com/wp-content/uploads/2019/03/cropped-logo-trans-paific-02-180x180.png" />
-    <meta name="msapplication-TileImage" content="http://www.transpac-logistics.co.id/wp-content/uploads/2019/03/cropped-logo-trans-paific-02-270x270.png" />
+    <!-- <link rel="icon" href="https://ddsm.rimibyan.com/wp-content/uploads/2019/03/cropped-logo-trans-paific-02-32x32.png" sizes="32x32" /> -->
+    <!-- <link rel="icon" href="https://ddsm.rimibyan.com/wp-content/uploads/2019/03/cropped-logo-trans-paific-02-192x192.png" sizes="192x192" /> -->
+    <!-- <link rel="apple-touch-icon-precomposed" href="https://ddsm.rimibyan.com/wp-content/uploads/2019/03/cropped-logo-trans-paific-02-180x180.png" /> -->
+    <!-- <meta name="msapplication-TileImage" content="http://www.transpac-logistics.co.id/wp-content/uploads/2019/03/cropped-logo-trans-paific-02-270x270.png" /> -->
     <style type="text/css" id="wp-custom-css">
         /* #nav-menu .custom-nav, #sticky-nav-menu .custom-nav {
     padding: 0 15px;

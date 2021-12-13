@@ -75,8 +75,8 @@ $tahun = date("Y");
     <link rel="EditURI" type="application/rsd+xml" title="RSD" href="xmlrpc0db0.php?rsd" />
     <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="wp-includes/wlwmanifest.xml" />
     <meta name="generator" content="WordPress 5.1.11" />
-    <link rel="alternate" type="application/json+oembed" href="wp-json/oembed/1.0/embede69e.json?url=http%3A%2F%2Fwww.transpac-logistics.co.id%2F" />
-    <link rel="alternate" type="text/xml+oembed" href="wp-json/oembed/1.0/embed8d8f?url=http%3A%2F%2Fwww.transpac-logistics.co.id%2F&amp;format=xml" />
+    <!-- <link rel="alternate" type="application/json+oembed" href="wp-json/oembed/1.0/embede69e.json?url=http%3A%2F%2Fwww.transpac-logistics.co.id%2F" /> -->
+    <!-- <link rel="alternate" type="text/xml+oembed" href="wp-json/oembed/1.0/embed8d8f?url=http%3A%2F%2Fwww.transpac-logistics.co.id%2F&amp;format=xml" /> -->
     <style type="text/css">
         .recentcomments a {
             display: inline !important;
@@ -85,10 +85,10 @@ $tahun = date("Y");
         }
     </style>
     <link rel="pingback" href="xmlrpc.php">
-    <link rel="icon" href="wp-content/uploads/2019/03/cropped-logo-trans-paific-02-32x32.png" sizes="32x32" />
-    <link rel="icon" href="wp-content/uploads/2019/03/cropped-logo-trans-paific-02-192x192.png" sizes="192x192" />
-    <link rel="apple-touch-icon-precomposed" href="wp-content/uploads/2019/03/cropped-logo-trans-paific-02-180x180.png" />
-    <meta name="msapplication-TileImage" content="http://www.transpac-logistics.co.id/wp-content/uploads/2019/03/cropped-logo-trans-paific-02-270x270.png" />
+    <!-- <link rel="icon" href="wp-content/uploads/2019/03/cropped-logo-trans-paific-02-32x32.png" sizes="32x32" /> -->
+    <!-- <link rel="icon" href="wp-content/uploads/2019/03/cropped-logo-trans-paific-02-192x192.png" sizes="192x192" /> -->
+    <!-- <link rel="apple-touch-icon-precomposed" href="wp-content/uploads/2019/03/cropped-logo-trans-paific-02-180x180.png" /> -->
+    <!-- <meta name="msapplication-TileImage" content="http://www.transpac-logistics.co.id/wp-content/uploads/2019/03/cropped-logo-trans-paific-02-270x270.png" /> -->
     <style type="text/css" id="wp-custom-css">
         /* #nav-menu .custom-nav, #sticky-nav-menu .custom-nav {
     padding: 0 15px;
@@ -658,7 +658,7 @@ $tahun = date("Y");
         /* ]]> */
     </script>
     <script type='text/javascript' src='wp-content/plugins/jet-elements/cherry-framework/modules/cherry-js-core/assets/js/min/cherry-js-core.min8c67.js?ver=1.5.11'></script>
-    <script type='text/javascript'>
+    <!-- <script type='text/javascript'>
         /* <![CDATA[ */
         var wpcf7 = {
             "apiSettings": {
@@ -667,7 +667,7 @@ $tahun = date("Y");
             }
         };
         /* ]]> */
-    </script>
+    </script> -->
     <script type='text/javascript' src='wp-content/plugins/contact-form-7/includes/js/scripts3c21.js?ver=5.1.1'></script>
     <script type='text/javascript' src='wp-includes/js/underscore.min4511.js?ver=1.8.3'></script>
     <script type='text/javascript' src='wp-content/uploads/jupiterx/compiler/jupiterx/9f110407359.js?ver=1.2.0'></script>
@@ -687,9 +687,9 @@ $tahun = date("Y");
                 "wait_processing": "Please wait, processing the previous request"
             }
         };
-        var cherryHandlerAjaxUrl = {
-            "ajax_url": "http:\/\/www.transpac-logistics.co.id\/wp-admin\/admin-ajax.php"
-        };
+        // var cherryHandlerAjaxUrl = {
+        //     "ajax_url": "http:\/\/www.transpac-logistics.co.id\/wp-admin\/admin-ajax.php"
+        // };
         /* ]]> */
     </script>
     <script type='text/javascript' src='wp-content/plugins/jet-elements/cherry-framework/modules/cherry-handler/assets/js/min/cherry-handler.min8c67.js?ver=1.5.11'></script>
