@@ -557,7 +557,7 @@ ol.organizational-chart > li > ol > li > ol > li > ol > li > ol > li > div {
                                                                 </div>
                                                             </div>
                                                         </section> -->
-														<?php $queryrowleft = $db->query("SELECT * FROM banner where aktif='Y' AND id_banner <> 20 AND id_banner <> 22");
+														<?php $queryrowleft = $db->query("SELECT * FROM banner where aktif='Y' AND id_banner <> 20 AND id_banner <> 22 AND id_banner <> 23 AND id_banner <> 24");
 					  									$rowleft = $queryrowleft->fetch_assoc(); ?>
                                                         <section class="elementor-element elementor-element-53560ab elementor-section-stretched elementor-section-full_width elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="53560ab" data-element_type="section"
                                                             data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;}">
