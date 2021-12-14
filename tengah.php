@@ -37,7 +37,7 @@
 		include "pages/profil-kami.php";
 	} else if ( $_GET['module'] == "portofolio" ){
 		include "pages/halaman-statis.php";
-	} else if ( $_GET['module'] == "hubungikami" ){
+	} else if ( $_GET['module'] == "contactus" ){
 		include "pages/hubungi-kami.php";
 	} else if ( $_GET['module'] == "detaillabel" ){
 		include "pages/artikel.php";
