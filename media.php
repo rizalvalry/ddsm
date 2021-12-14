@@ -522,13 +522,13 @@ $tahun = date("Y");
                                                                     <div class="elementor-element elementor-element-818350b elementor-mobile-align-center elementor-align-left custom-icon elementor-icon-list--layout-traditional elementor-widget elementor-widget-icon-list" data-id="818350b" data-element_type="widget" data-widget_type="icon-list.default">
                                                                         <div class="elementor-widget-container">
                                                                             <ul class="elementor-icon-list-items">
-                                                                                <li class="elementor-icon-list-item">
+                                                                                <!-- <li class="elementor-icon-list-item">
                                                                                     <a href="shipping-to-usa-2/"> <span class="elementor-icon-list-icon">
 							<i class="fa fa-caret-right" aria-hidden="true"></i>
 						</span>
                                                                                         <span class="elementor-icon-list-text">Dompet Duafa</span>
                                                                                     </a>
-                                                                                </li>
+                                                                                </li> -->
                                                                                 <li class="elementor-icon-list-item">
                                                                                     <a href="sea-freight-3/"> <span class="elementor-icon-list-icon">
 							<i class="fa fa-caret-right" aria-hidden="true"></i>
