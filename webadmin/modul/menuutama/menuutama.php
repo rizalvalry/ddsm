@@ -18,7 +18,7 @@
 					<button type="submit" class="btn btn-warning" name="nonaktif"  data-toggle="tooltip"  title="Nonaktifkan"><i class="glyphicon glyphicon-remove"></i></button>
 					<button type="submit" class="btn btn-success" name="akses"  data-toggle="tooltip"  title="Diakses User"><i class="glyphicon glyphicon-ok"></i></button>
 					<button type="submit" class="btn btn-warning" name="nonakses"  data-toggle="tooltip"  title="Tidak Diakses User"><i class="glyphicon glyphicon-remove"></i></button>
-					<button type="submit" class="btn btn-danger"  name="hapus"  data-toggle="tooltip" onClick="return confirm('Data yang sudah dihapus tidak bisa dikembalikan lagi. Apakah anda yakin ?')" title="Hapus"><i class="glyphicon glyphicon-trash"></i></button>
+					<!-- <button type="submit" class="btn btn-danger"  name="hapus"  data-toggle="tooltip" onClick="return confirm('Data yang sudah dihapus tidak bisa dikembalikan lagi. Apakah anda yakin ?')" title="Hapus"><i class="glyphicon glyphicon-trash"></i></button> -->
 					<button type="button" class="btn btn-default" data-toggle="tooltip" title="Refresh" onclick="window.location.href='?module=menuutama';"><i class="glyphicon glyphicon-refresh"></i></button>
 					</p>
 				</div>
