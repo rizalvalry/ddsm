@@ -9,13 +9,13 @@
 			<form method="POST" action="" class="form-horizontal">
 			<div class="row">
 				<div class="col-sm-8">
-				<span style="font-size : 30px;">Kustomer</span> beranda / kustomer
+				<span style="font-size : 30px;">Client</span> beranda / kustomer
 				</div>
 				<div class="col-sm-4">
 					<p class="pull-right">
 					<button type="submit" class="btn btn-success" name="aktif"  data-toggle="tooltip"  title="Aktifkan"><i class="glyphicon glyphicon-ok"></i></button>
 					<button type="submit" class="btn btn-warning" name="nonaktif"  data-toggle="tooltip"  title="Nonaktifkan"><i class="glyphicon glyphicon-remove"></i></button>
-					<button type="submit" class="btn btn-danger"  name="hapus"  data-toggle="tooltip" onClick="return confirm('Data yang sudah dihapus tidak bisa dikembalikan lagi. Apakah anda yakin ?')" title="Hapus Kustomer"><i class="glyphicon glyphicon-trash"></i></button>
+					<button type="submit" class="btn btn-danger"  name="hapus"  data-toggle="tooltip" onClick="return confirm('Data yang sudah dihapus tidak bisa dikembalikan lagi. Apakah anda yakin ?')" title="Hapus Client"><i class="glyphicon glyphicon-trash"></i></button>
 					<button type="button" class="btn btn-default" data-toggle="tooltip" title="Refresh" onclick="window.location.href='?module=kustomer';"><i class="glyphicon glyphicon-refresh"></i></button>
 					</p>
 				</div>
@@ -23,7 +23,7 @@
 			<div class="row">
 			<div class="panel panel-default">
 				<div class="panel-heading">
-					<h4><i class="glyphicon glyphicon-list"></i>   Data Kustomer</h4>
+					<h4><i class="glyphicon glyphicon-list"></i>   Data Client</h4>
 					
 				</div>
 				
@@ -118,7 +118,7 @@
 							<thead>
 								<tr class="bg-warning">
 									<th width="7%"><label><input type="checkbox" name="semua" id="semua" /></label> NO</th>
-									<th>Nama Kustomer</th>
+									<th>Nama Client</th>
 									<th>Kontak</th>
 									<th>Tanggal Daftar</th>
 									<th>Jam Daftar</th>
@@ -145,7 +145,7 @@
 			<form method="POST" action="" class="form-horizontal" enctype="multipart/form-data">
 			<div class="row">
 				<div class="col-sm-10">
-				<span style="font-size : 30px;">Kustomer</span> beranda / ubah kustomer
+				<span style="font-size : 30px;">Client</span> beranda / ubah kustomer
 				</div>
 				<div class="col-sm-2">
 					<p class="pull-right">
@@ -159,7 +159,7 @@
 			<div class="row">
 			<div class="panel panel-default">
 				<div class="panel-heading">
-					<h4><i class="glyphicon glyphicon-edit"></i>   Ubah Kustomer</h4>
+					<h4><i class="glyphicon glyphicon-edit"></i>   Ubah Client</h4>
 					
 				</div>
 				<div class="panel-body">	 

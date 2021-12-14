@@ -78,7 +78,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				?>
 					
 					<ul class="nav nav-pills nav-stacked custom-nav">
-						<li><a href="media.php?module=user" class="<?php if($_GET['module']=='user') echo "active"; ?>"><i class="fa fa-user"></i><span>Kelola Seller</span></a></li>
+						<li><a href="media.php?module=user" class="<?php if($_GET['module']=='user') echo "active"; ?>"><i class="fa fa-user"></i><span>Kelola Admin</span></a></li>
 						<?php
 							$query1  = $db->prepare("SELECT id_main,nama_menu,icon FROM menuutama WHERE aktif=? AND lokasi=? ORDER BY urutan ASC");
 							$query1->bind_param("ss", $aktif1,$lokasi1);
