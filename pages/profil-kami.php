@@ -420,26 +420,26 @@ ol.organizational-chart > li > ol > li > ol > li > ol > li > ol > li > div {
 	ol.organizational-chart > li > ol > li > ol > li > .dirop {
     	/* background-color: #A5A5A5; */
 		background-image: linear-gradient(to right, #A5A5A5 , #02a85c);
-		-webkit-transform: skew(20deg);
-		-moz-transform: skew(20deg);
-		-o-transform: skew(20deg);
-		-ms-transform: skew(20deg);
+		-webkit-transform: skew(5deg);
+		-moz-transform: skew(5deg);
+		-o-transform: skew(5deg);
+		-ms-transform: skew(5deg);
 	}
 	ol.organizational-chart > li > ol > li > ol > li > .dirkeu {
     	/* background-color: #00A859; */
 		background-image: linear-gradient(to right, #01BC5A , #02a85c);
-		-webkit-transform: skew(20deg);
-		-moz-transform: skew(20deg);
-		-o-transform: skew(20deg);
-		-ms-transform: skew(20deg);
+		-webkit-transform: skew(5deg);
+		-moz-transform: skew(5deg);
+		-o-transform: skew(5deg);
+		-ms-transform: skew(5deg);
 	}
 	ol.organizational-chart > li > ol > li > ol > li > .dirbis {
     	/* background-color: #7030A0; */
 		background-image: linear-gradient(to right, #7030A0 , #02a85c);
-		-webkit-transform: skew(20deg);
-		-moz-transform: skew(20deg);
-		-o-transform: skew(20deg);
-		-ms-transform: skew(20deg);
+		-webkit-transform: skew(5deg);
+		-moz-transform: skew(5deg);
+		-o-transform: skew(5deg);
+		-ms-transform: skew(5deg);
 	}
 
 	ol.organizational-chart > li > ol > li > ol > li > div {
