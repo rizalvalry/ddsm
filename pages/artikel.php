@@ -64,16 +64,16 @@
 			?>
                 <div class="col-sm-6 col-xs-12 margin-top-30 col-md-4">
                     <div class="collection-item position-r">
-                        <a href="artikel-<?php echo $row5['id_artikel']; ?>-<?php echo $row5['judul_seo']; ?>.html" class="collec-im">
+                        <a href="events-<?php echo $row5['id_artikel']; ?>-<?php echo $row5['judul_seo']; ?>.html" class="collec-im">
                             
                             <img src="gambar/thumb_artikel/<?php echo $row5['gambar']; ?>" data-srcset="gambar/thumb_artikel/<?php echo $row5['gambar']; ?>" data-src="gambar/thumb_artikel/<?php echo $row5['gambar']; ?>" alt="Electronics Collection" data-sizes="auto" class="lazyload blur-up img-responsive">
                             
                         </a>
                         <div class="display-collection">
-                            <a href="artikel-<?php echo $row5['id_artikel']; ?>-<?php echo $row5['judul_seo']; ?>.html" class="back-link"></a>
+                            <a href="events-<?php echo $row5['id_artikel']; ?>-<?php echo $row5['judul_seo']; ?>.html" class="back-link"></a>
                             <div class="collect-over">
                                 <h4 class="margin-clear">
-                                    <a href="artikel-<?php echo $row5['id_artikel']; ?>-<?php echo $row5['judul_seo']; ?>.html"><?php echo $row5['judul_artikel']; ?></a>
+                                    <a href="events-<?php echo $row5['id_artikel']; ?>-<?php echo $row5['judul_seo']; ?>.html"><?php echo $row5['judul_artikel']; ?></a>
                                 </h4>
                             </div>
                         </div>

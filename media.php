@@ -71,6 +71,7 @@ $tahun = date("Y");
     <link rel='stylesheet' id='elementor-post-87-css' href='wp-content/uploads/elementor/css/post-87ca65.css' type='text/css' media='all' />
     <link rel='stylesheet' id='elementor-post-102-css' href='wp-content/uploads/elementor/css/post-1025640.css' type='text/css' media='all' />
     <link rel='stylesheet' id='elementor-post-268-css' href='wp-content/uploads/elementor/css/post-268176d.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='elementor-post-268-css' href='css/general.css' type='text/css' media='all' />
     <script type='text/javascript' src='wp-includes/js/jquery/jqueryb8ff.js'></script>
     <script type='text/javascript' src='wp-includes/js/jquery/jquery-migrate.min330a.js'></script>
     <link rel="EditURI" type="application/rsd+xml" title="RSD" href="xmlrpc0db0.php?rsd" />
