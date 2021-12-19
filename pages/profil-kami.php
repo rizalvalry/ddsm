@@ -623,7 +623,7 @@ ol.organizational-chart > li > ol > li > ol > li > ol > li > ol > li > div {
 
 																					<ol class="organizational-chart">
 																						<li>
-																							<div style="background-image: linear-gradient(to right, #ED7D31 , #02a85c);">
+																							<div style="background-image: linear-gradient(to right, #c2dc5d , #02a85c);">
 																								<h1>Direktur Utama : Ni'am Masykuri, S.E.</h1>
 																							</div>
 
