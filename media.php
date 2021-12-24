@@ -602,38 +602,46 @@ $tahun = date("Y");
                                             <section class="elementor-element elementor-element-2e4e145 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-inner-section" data-id="2e4e145" data-element_type="section">
                                                 <div class="elementor-container elementor-column-gap-no">
                                                     <div class="elementor-row">
+                                                    <?php $queryfoot = $db->query("SELECT nama_produk FROM produk"); 
+                                                        $count = 0;
+                                                        ?>
+
+                                                        <?php while ($rowfooter = $queryfoot->fetch_assoc()) {
+                                                            if($count % 2 == 0){  
+                                                            ?>
+                                                    <!-- simple 1 -->
                                                         <div class="elementor-element elementor-element-79b2579 elementor-column elementor-col-50 elementor-inner-column" data-id="79b2579" data-element_type="column">
                                                             <div class="elementor-column-wrap  elementor-element-populated">
                                                                 <div class="elementor-widget-wrap">
                                                                     <div class="elementor-element elementor-element-818350b elementor-mobile-align-center elementor-align-left custom-icon elementor-icon-list--layout-traditional elementor-widget elementor-widget-icon-list" data-id="818350b" data-element_type="widget" data-widget_type="icon-list.default">
                                                                         <div class="elementor-widget-container">
                                                                             <ul class="elementor-icon-list-items">
-                                                                                <!-- <li class="elementor-icon-list-item">
-                                                                                    <a href="shipping-to-usa-2/"> <span class="elementor-icon-list-icon">
-							<i class="fa fa-caret-right" aria-hidden="true"></i>
-						</span>
-                                                                                        <span class="elementor-icon-list-text">Dompet Duafa</span>
-                                                                                    </a>
-                                                                                </li> -->
-                                                                                <!-- <li class="elementor-icon-list-item">
-                                                                                    <a href="sea-freight-3/"> <span class="elementor-icon-list-icon">
-							<i class="fa fa-caret-right" aria-hidden="true"></i>
-						</span>
-                                                                                        <span class="elementor-icon-list-text">Banking</span>
-                                                                                    </a>
-                                                                                </li> -->
-                                                                                <li class="elementor-icon-list-item">
-                                                                                    <a href="air-freight-3/"> <span class="elementor-icon-list-icon">
-							<i class="fa fa-caret-right" aria-hidden="true"></i>
-						</span>
-                                                                                        <span class="elementor-icon-list-text">Infaq</span>
-                                                                                    </a>
-                                                                                </li>
+                                                                                                                                <!-- <li class="elementor-icon-list-item">
+                                                                                                                                    <a href="shipping-to-usa-2/"> <span class="elementor-icon-list-icon">
+                                                                            <i class="fa fa-caret-right" aria-hidden="true"></i>
+                                                                        </span>
+                                                                                                                                        <span class="elementor-icon-list-text">Dompet Duafa</span>
+                                                                                                                                    </a>
+                                                                                                                                </li>
+                                                                                                                                <li class="elementor-icon-list-item">
+                                                                                                                                    <a href="sea-freight-3/"> <span class="elementor-icon-list-icon">
+                                                                            <i class="fa fa-caret-right" aria-hidden="true"></i>
+                                                                        </span>
+                                                                                                                                        <span class="elementor-icon-list-text">Banking</span>
+                                                                                                                                    </a>
+                                                                                                                                </li>
+                                                                                                                                <li class="elementor-icon-list-item">
+                                                                                                                                    <a href="air-freight-3/"> <span class="elementor-icon-list-icon">
+                                                                            <i class="fa fa-caret-right" aria-hidden="true"></i>
+                                                                        </span>
+                                                                                                                                        <span class="elementor-icon-list-text">Infaq</span>
+                                                                                                                                    </a>
+                                                                                                                                </li> -->
                                                                                 <li class="elementor-icon-list-item">
                                                                                     <a href="ecommerce/"> <span class="elementor-icon-list-icon">
 							<i class="fa fa-caret-right" aria-hidden="true"></i>
 						</span>
-                                                                                        <span class="elementor-icon-list-text">E-commerce</span>
+                                                                                        <span class="elementor-icon-list-text"><?= $rowfooter['nama_produk']; ?></span>
                                                                                     </a>
                                                                                 </li>
                                                                             </ul>
@@ -642,6 +650,9 @@ $tahun = date("Y");
                                                                 </div>
                                                             </div>
                                                         </div>
+                                                        <!-- end simple 1 -->
+                                                        <?php } else { ?>
+                                                        <!-- simple 2 -->
                                                         <div class="elementor-element elementor-element-23d3fd8 elementor-column elementor-col-50 elementor-inner-column" data-id="23d3fd8" data-element_type="column">
                                                             <div class="elementor-column-wrap  elementor-element-populated">
                                                                 <div class="elementor-widget-wrap">
@@ -652,10 +663,10 @@ $tahun = date("Y");
                                                                                     <a href="logistics-2/"> <span class="elementor-icon-list-icon">
 							<i class="fa fa-caret-right" aria-hidden="true"></i>
 						</span>
-                                                                                        <span class="elementor-icon-list-text">Laboratorium</span>
+                                                                                        <span class="elementor-icon-list-text"><?= $rowfooter['nama_produk']; ?></span>
                                                                                     </a>
                                                                                 </li>
-                                                                                <li class="elementor-icon-list-item">
+                                                                                <!-- <li class="elementor-icon-list-item">
                                                                                     <a href="land-transportation-3/"> <span class="elementor-icon-list-icon">
 							<i class="fa fa-caret-right" aria-hidden="true"></i>
 						</span>
@@ -668,13 +679,17 @@ $tahun = date("Y");
 						</span>
                                                                                         <span class="elementor-icon-list-text">Health Insurance</span>
                                                                                     </a>
-                                                                                </li>
+                                                                                </li> -->
                                                                             </ul>
                                                                         </div>
                                                                     </div>
                                                                 </div>
                                                             </div>
                                                         </div>
+                                                        <!-- end simple 2 -->
+                                                        <?php } $count++; ?>
+
+                                                    <?php } ?>
                                                     </div>
                                                 </div>
                                             </section>
