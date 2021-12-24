@@ -178,7 +178,8 @@ $tahun = date("Y");
         
         @media only screen and (min-width: 1025px) {
             #nav-menu * {
-                height: 100% !important;
+                /* untuk selain dropdown pakai yg ini ya */
+                /* height: 100% !important; */
             }
             #nav-menu .elementor-widget-raven-search-form {
                 height: fit-content !important;
@@ -269,7 +270,7 @@ $tahun = date("Y");
                                                             <ul id="menu-70220dc" class="raven-nav-menu">
                                                             <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-6 current_page_item menu-item-20"><a href="<?= $row00['alamat_web']; ?>" aria-current="page" class="raven-menu-item raven-menu-item-">Home</a></li>
                                                             <?php
-                                                                $query4  = $db->prepare("SELECT nama_menu,link FROM menuutama WHERE aktif=? AND lokasi=? ORDER BY urutan ASC");
+                                                                $query4  = $db->prepare("SELECT nama_menu,link FROM menuutama WHERE id_main <> 35 AND aktif=? AND lokasi=? ORDER BY urutan ASC");
                                                                 $query4->bind_param("ss", $aktif4,$lokasi4);
                                                                 $lokasi4 = "Public";
                                                                 $aktif4  = "Y";
@@ -280,6 +281,27 @@ $tahun = date("Y");
                                                             <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-290"><a class="raven-menu-item" href="<?= $row4['link']; ?>"><?= $row4['nama_menu']; ?></a></li>
 
                                                             <?php } ?>
+                                                            <!-- dropdown start here -->
+                                                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-6 current_page_item menu-item-20">
+                                                                <a href="#" class="raven-menu-item" data-toggle="dropdown">News<b class="caret"></b></a>
+                                                                <ul class="dropdown" aria-label="submenu">
+                                        
+                                                                    <?php
+                                                                                $query3 = $db->prepare("SELECT id_kategori,nama_kategori,kategori_seo FROM kategori_artikel WHERE aktif=? ORDER BY nama_kategori ASC");
+                                                                                $query3->bind_param("s", $aktif3);
+                                                                                $aktif3 = "Y";
+                                                                                $query3->execute();
+                                                                                $result3= $query3->get_result();
+                                                                                while ( $row3 = $result3->fetch_assoc() ){
+                                                                        
+                                                                                    echo '<li><a class="list" href="label-'.$row3['id_kategori'].'-'.$row3['kategori_seo'].'">'.$row3['nama_kategori'].'</a></li>';
+                                                                                
+                                                                                }
+                                                                    ?>
+
+                                                                </ul>
+                                                            </li>
+                                                            <!-- dropdown end here -->
                                                             </ul>
                                                         </nav>
                                                         <div class="raven-nav-menu-toggle">
@@ -292,7 +314,7 @@ $tahun = date("Y");
                                                                 <ul id="menu-70220dc" class="raven-nav-menu">
                                                                     <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-6 current_page_item menu-item-20"><a href="<?= $row00['alamat_web']; ?>" aria-current="page" class="raven-menu-item raven-menu-item-">Home</a></li>
                                                                     <?php
-                                                                        $query4  = $db->prepare("SELECT nama_menu,link FROM menuutama WHERE aktif=? AND lokasi=? ORDER BY urutan ASC");
+                                                                        $query4  = $db->prepare("SELECT nama_menu,link FROM menuutama WHERE id_main <> 35 AND aktif=? AND lokasi=? ORDER BY urutan ASC");
                                                                         $query4->bind_param("ss", $aktif4,$lokasi4);
                                                                         $lokasi4 = "Public";
                                                                         $aktif4  = "Y";
@@ -303,6 +325,27 @@ $tahun = date("Y");
                                                                     <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-290"><a class="raven-menu-item" href="<?= $row4['link']; ?>"><?= $row4['nama_menu']; ?></a></li>
 
                                                                     <?php } ?>
+                                                                    <!-- dropdown start here -->
+                                                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-6 current_page_item menu-item-20">
+                                                                <a href="#" class="raven-menu-item" data-toggle="dropdown">News<b class="caret"></b></a>
+                                                                <ul class="dropdown" aria-label="submenu">
+                                        
+                                                                    <?php
+                                                                                $query3 = $db->prepare("SELECT id_kategori,nama_kategori,kategori_seo FROM kategori_artikel WHERE aktif=? ORDER BY nama_kategori ASC");
+                                                                                $query3->bind_param("s", $aktif3);
+                                                                                $aktif3 = "Y";
+                                                                                $query3->execute();
+                                                                                $result3= $query3->get_result();
+                                                                                while ( $row3 = $result3->fetch_assoc() ){
+                                                                        
+                                                                                    echo '<li><a class="list" href="label-'.$row3['id_kategori'].'-'.$row3['kategori_seo'].'">'.$row3['nama_kategori'].'</a></li>';
+                                                                                
+                                                                                }
+                                                                    ?>
+
+                                                                </ul>
+                                                            </li>
+                                                            <!-- dropdown end here -->
                                                                 </ul>
                                                             </div>
                                                         </nav>
@@ -367,7 +410,7 @@ $tahun = date("Y");
                                                             <ul id="menu-40464e6" class="raven-nav-menu">
                                                             <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-6 current_page_item menu-item-20"><a href="<?= $row00['alamat_web']; ?>" aria-current="page" class="raven-menu-item raven-menu-item-">Home</a></li>
                                                             <?php
-                                                                        $query4  = $db->prepare("SELECT nama_menu,link FROM menuutama WHERE aktif=? AND lokasi=? ORDER BY urutan ASC");
+                                                                        $query4  = $db->prepare("SELECT nama_menu,link FROM menuutama WHERE id_main <> 35 AND aktif=? AND lokasi=? ORDER BY urutan ASC");
                                                                         $query4->bind_param("ss", $aktif4,$lokasi4);
                                                                         $lokasi4 = "Public";
                                                                         $aktif4  = "Y";
@@ -378,6 +421,27 @@ $tahun = date("Y");
                                                                     <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-290"><a class="raven-menu-item" href="<?= $row4['link']; ?>"><?= $row4['nama_menu']; ?></a></li>
 
                                                                     <?php } ?>
+                                                                    <!-- dropdown start here -->
+                                                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-6 current_page_item menu-item-20">
+                                                                <a href="#" class="raven-menu-item" data-toggle="dropdown">News<b class="caret"></b></a>
+                                                                <ul class="dropdown" aria-label="submenu">
+                                        
+                                                                    <?php
+                                                                                $query3 = $db->prepare("SELECT id_kategori,nama_kategori,kategori_seo FROM kategori_artikel WHERE aktif=? ORDER BY nama_kategori ASC");
+                                                                                $query3->bind_param("s", $aktif3);
+                                                                                $aktif3 = "Y";
+                                                                                $query3->execute();
+                                                                                $result3= $query3->get_result();
+                                                                                while ( $row3 = $result3->fetch_assoc() ){
+                                                                        
+                                                                                    echo '<li><a class="list" href="label-'.$row3['id_kategori'].'-'.$row3['kategori_seo'].'">'.$row3['nama_kategori'].'</a></li>';
+                                                                                
+                                                                                }
+                                                                    ?>
+
+                                                                </ul>
+                                                            </li>
+                                                            <!-- dropdown end here -->
                                                             </ul>
                                                         </nav>
                                                         <div class="raven-nav-menu-toggle">
@@ -390,7 +454,7 @@ $tahun = date("Y");
                                                                 <ul id="menu-40464e6" class="raven-nav-menu">
                                                                 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-6 current_page_item menu-item-20"><a href="<?= $row00['alamat_web']; ?>" aria-current="page" class="raven-menu-item raven-menu-item-">Home</a></li>
                                                             <?php
-                                                                        $query4  = $db->prepare("SELECT nama_menu,link FROM menuutama WHERE aktif=? AND lokasi=? ORDER BY urutan ASC");
+                                                                        $query4  = $db->prepare("SELECT nama_menu,link FROM menuutama WHERE id_main <> 35 AND aktif=? AND lokasi=? ORDER BY urutan ASC");
                                                                         $query4->bind_param("ss", $aktif4,$lokasi4);
                                                                         $lokasi4 = "Public";
                                                                         $aktif4  = "Y";
@@ -401,6 +465,27 @@ $tahun = date("Y");
                                                                     <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-290"><a class="raven-menu-item" href="<?= $row4['link']; ?>"><?= $row4['nama_menu']; ?></a></li>
 
                                                                     <?php } ?>
+                                                                    <!-- dropdown start here -->
+                                                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-6 current_page_item menu-item-20">
+                                                                <a href="#" class="raven-menu-item" data-toggle="dropdown">News<b class="caret"></b></a>
+                                                                <ul class="dropdown" aria-label="submenu">
+                                        
+                                                                    <?php
+                                                                                $query3 = $db->prepare("SELECT id_kategori,nama_kategori,kategori_seo FROM kategori_artikel WHERE aktif=? ORDER BY nama_kategori ASC");
+                                                                                $query3->bind_param("s", $aktif3);
+                                                                                $aktif3 = "Y";
+                                                                                $query3->execute();
+                                                                                $result3= $query3->get_result();
+                                                                                while ( $row3 = $result3->fetch_assoc() ){
+                                                                        
+                                                                                    echo '<li><a class="list" href="label-'.$row3['id_kategori'].'-'.$row3['kategori_seo'].'">'.$row3['nama_kategori'].'</a></li>';
+                                                                                
+                                                                                }
+                                                                    ?>
+
+                                                                </ul>
+                                                            </li>
+                                                            <!-- dropdown end here -->
                                                                 </ul>
                                                             </div>
                                                         </nav>
