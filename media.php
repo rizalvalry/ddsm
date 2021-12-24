@@ -692,7 +692,7 @@ $tahun = date("Y");
                                             <div class="elementor-element elementor-element-d33d377 p-no-margin link-footer elementor-widget elementor-widget-text-editor" data-id="d33d377" data-element_type="widget" data-widget_type="text-editor.default">
                                                 <div class="elementor-widget-container">
                                                     <div class="elementor-text-editor elementor-clearfix">
-                                                        <p><a href="tel:+<?= $row00['nomor_hp']; ?>"><?= $row00['nomor_hp']; ?></a></p>
+                                                        <!-- <p><a href="tel:+<?= $row00['nomor_hp']; ?>"><?= $row00['nomor_hp']; ?></a></p> -->
                                                         <p><a style="font-size: 14px;" href="mailto:<?= $row00['email_pengelola']?>">info@ddsaranamedika.id</a></p>
                                                     </div>
                                                 </div>
