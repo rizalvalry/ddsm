@@ -615,13 +615,13 @@ $tahun = date("Y");
                                                                                         <span class="elementor-icon-list-text">Dompet Duafa</span>
                                                                                     </a>
                                                                                 </li> -->
-                                                                                <li class="elementor-icon-list-item">
+                                                                                <!-- <li class="elementor-icon-list-item">
                                                                                     <a href="sea-freight-3/"> <span class="elementor-icon-list-icon">
 							<i class="fa fa-caret-right" aria-hidden="true"></i>
 						</span>
                                                                                         <span class="elementor-icon-list-text">Banking</span>
                                                                                     </a>
-                                                                                </li>
+                                                                                </li> -->
                                                                                 <li class="elementor-icon-list-item">
                                                                                     <a href="air-freight-3/"> <span class="elementor-icon-list-icon">
 							<i class="fa fa-caret-right" aria-hidden="true"></i>
@@ -692,7 +692,7 @@ $tahun = date("Y");
                                             <div class="elementor-element elementor-element-d33d377 p-no-margin link-footer elementor-widget elementor-widget-text-editor" data-id="d33d377" data-element_type="widget" data-widget_type="text-editor.default">
                                                 <div class="elementor-widget-container">
                                                     <div class="elementor-text-editor elementor-clearfix">
-                                                        <p><a href="tel:+62 21 5890 5226">+62 857 8157 1742</a></p>
+                                                        <p><a href="tel:+<?= $row00['nomor_hp']; ?>"><?= $row00['nomor_hp']; ?></a></p>
                                                         <p><a style="font-size: 14px;" href="mailto:<?= $row00['email_pengelola']?>">info@ddsaranamedika.id</a></p>
                                                     </div>
                                                 </div>
@@ -710,7 +710,7 @@ $tahun = date("Y");
                                                     </ul>
                                                 </div>
                                             </div>
-                                            <div class="elementor-element elementor-element-d072895 elementor-mobile-align-center custom-icon elementor-icon-list--layout-traditional elementor-widget elementor-widget-icon-list" data-id="d072895" data-element_type="widget" data-widget_type="icon-list.default">
+                                            <!-- <div class="elementor-element elementor-element-d072895 elementor-mobile-align-center custom-icon elementor-icon-list--layout-traditional elementor-widget elementor-widget-icon-list" data-id="d072895" data-element_type="widget" data-widget_type="icon-list.default">
                                                 <div class="elementor-widget-container">
                                                     <ul class="elementor-icon-list-items">
                                                         <li class="elementor-icon-list-item">
@@ -722,7 +722,7 @@ $tahun = date("Y");
                                                         </li>
                                                     </ul>
                                                 </div>
-                                            </div>
+                                            </div> -->
                                         </div>
                                     </div>
                                 </div>
