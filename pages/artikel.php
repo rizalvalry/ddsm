@@ -121,6 +121,8 @@
 					</div>
 				</div>
 
+				
+
 				<!-- pages -->
 				<div class="clearfix"></div>
 							<div class="grid_3 grid_5 wow fadeInDown animated" data-wow-delay=".5s">
@@ -131,15 +133,20 @@
 									$row27        = $query27->num_rows;
 									$jumlah_hal27 = ceil ($row27/$batas);
 								?>
-									<li class="<?php if ( $_GET['hallabel'] <= 1 ) echo "disabled"; ?>"><a href="hallabel-<?php echo $_GET['id']; ?>-<?php echo $_GET['hallabel'] - 1; ?>.html"><i class="fa fa-angle-left">«</i></a></li>
+								
+								<li class="<?php if ( $_GET['hallabel'] <= 1 ) echo "disabled"; ?>"><a href="hallabel-<?php echo $_GET['id']; ?>-<?php echo $_GET['hallabel'] - 1; ?>"><span class="badge"><i style="font-size:24px" class="fa">&#xf100;</i></span></a></li>
+									<!-- <span class="badge"> -->
 									<?php
 										for ( $i = 1; $i <= $jumlah_hal27; $i++ ){
 									?>
-										<li class="<?php if ( $_GET['hallabel'] == $i ) echo "active"; ?>"><a href="hallabel-<?php echo $_GET['id'].'-'. $i; ?>.html"><?php echo $i; ?></a></li>
+										<li class="<?php if ( $_GET['hallabel'] == $i ) echo "number-active"; ?>">
+										<a class="font-number-active" href="hallabel-<?php echo $_GET['id'].'-'. $i; ?>"><?php echo $i; ?></a>
+										<!-- </span> -->
+									</li>
 									<?php
 										}
 									?>
-									<li class="<?php if ( $_GET['hallabel'] >= $jumlah_hal27 ) echo "disabled"; ?>"><a href="hallabel-<?php echo $_GET['id']; ?>-<?php echo $_GET['hallabel'] + 1; ?>.html"><i class="fa fa-angle-right">»</i></a></li>
+									<li class="<?php if ( $_GET['hallabel'] >= $jumlah_hal27 ) echo "disabled"; ?>"><a href="hallabel-<?php echo $_GET['id']; ?>-<?php echo $_GET['hallabel'] + 1; ?>"><span class="badge"><i style="font-size:24px" class="fa">&#xf101;</i></span></a></li>
 								</ul>
 							</center>
 							</div>

@@ -62,3 +62,35 @@ p.white-text {
 .dropdown:hover .dropdown-content {
     display: block;
 }
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+}
+
+.badge {
+    display: flex;
+    min-width: 5px;
+    padding: 5px 12px;
+    border-radius: 50%;
+    margin: 0px 2px 0px 2px;
+    font-size: 10px;
+    text-align: center;
+    background: #bfdc5a;
+    color: #ffffff;
+}
+
+li.number-active {
+    border-radius: 5px;
+    font-size: 18px;
+    display: block;
+    background-color: #01a758;
+    padding: 5px;
+    /* color: white; */
+}
+
+a.font-number-active {
+    color: white;
+}
