@@ -42,7 +42,7 @@
                                                                                 <div class="elementor-element elementor-element-dac60f6 elementor-widget elementor-widget-text-editor" data-id="dac60f6" data-element_type="widget" data-widget_type="text-editor.default">
                                                                                     <div class="elementor-widget-container">
                                                                                         <div class="elementor-text-editor elementor-clearfix">
-																						<p style="font-size : 10px; margin-top : 6px;"><?php echo 'Kategori : '.$row89['nama_kategori'].' | Tanggal : '.$tanggal.' | Jam : '.$row89['jam'].' WIB | Diposting : '.$row89['nama_lengkap'].' | Dibaca : '.$row89['dibaca'].' kali '; ?></p>
+																						<p style="font-size : 10px; margin-top : 6px;"><?php echo 'Kategori : '.$row89['nama_kategori'].' | Tanggal : '.$tanggal.' | Diposting : '.$row89['nama_lengkap'].''; ?></p>
                                                                                         </div>
                                                                                     </div>
                                                                                 </div>
