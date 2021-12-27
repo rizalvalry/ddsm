@@ -224,6 +224,34 @@ $tahun = date("Y");
 
         .ico-times:before{ content: "\2716"; }
         .ico-check:before{ content: "\2714"; }
+
+        /* translate google */
+        .translated-ltr{margin-top:-40px;}
+        .translated-ltr{margin-top:-40px;}
+        .goog-te-banner-frame {display: none;margin-top:-20px;}
+
+        .goog-logo-link {
+        display:none !important;
+        } 
+
+        .goog-te-gadget{
+        color: transparent !important;
+        }
+
+        .goog-te-gadget .goog-te-combo {
+            margin: 5px 0 5px;
+            font-size: 1.2em;
+            border-radius: 12px;
+            background-color: #02a85a;
+            border: 0px;
+            padding: 7px 2px 8px 7px;
+            display: flex;
+            color: #eaeaea;
+            -webkit-box-shadow: 0px 9px 0px #c9dc6f;
+            -moz-box-shadow: 0px 9px 0px #16a085;
+            box-shadow: 5px -4px 5px #c3db5a;
+        }
+
     </style>
 </head>
 
@@ -709,6 +737,7 @@ $tahun = date("Y");
                                                     <div class="elementor-text-editor elementor-clearfix">
                                                         <!-- <p><a href="tel:+<?= $row00['nomor_hp']; ?>"><?= $row00['nomor_hp']; ?></a></p> -->
                                                         <p><a style="font-size: 14px;" href="mailto:<?= $row00['email_pengelola']?>">info@ddsaranamedika.id</a></p>
+
                                                     </div>
                                                 </div>
                                             </div>
@@ -725,19 +754,19 @@ $tahun = date("Y");
                                                     </ul>
                                                 </div>
                                             </div>
-                                            <!-- <div class="elementor-element elementor-element-d072895 elementor-mobile-align-center custom-icon elementor-icon-list--layout-traditional elementor-widget elementor-widget-icon-list" data-id="d072895" data-element_type="widget" data-widget_type="icon-list.default">
+                                            <div class="elementor-element elementor-element-d072895 elementor-mobile-align-center custom-icon elementor-icon-list--layout-traditional elementor-widget elementor-widget-icon-list" data-id="d072895" data-element_type="widget" data-widget_type="icon-list.default">
                                                 <div class="elementor-widget-container">
                                                     <ul class="elementor-icon-list-items">
                                                         <li class="elementor-icon-list-item">
-                                                            <a href="http://ddsaranamedika.id:2095/" target="_blank"> <span class="elementor-icon-list-icon">
-							<i class="fa fa-caret-right" aria-hidden="true"></i>
-						</span>
-                                                                <span class="elementor-icon-list-text">Webmail ( Staff Only )</span>
-                                                            </a>
+                                                            
+                        <div id="google_translate_element"></div>
+                                                         
                                                         </li>
                                                     </ul>
                                                 </div>
-                                            </div> -->
+                                            </div>
+                                            
+                                            
                                         </div>
                                     </div>
                                 </div>
@@ -749,6 +778,19 @@ $tahun = date("Y");
         </div>
         <!-- close output: jupiterx_custom_footer_template -->
     </footer>
+
+
+
+
+
+<script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({pageLanguage: 'ina'}, 'google_translate_element');
+}
+</script>
+
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
 
     </div>
     <script type="text/javascript">
