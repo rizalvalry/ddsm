@@ -745,7 +745,7 @@ $tahun = date("Y");
                                                 <div class="elementor-widget-container">
                                                     <ul class="elementor-icon-list-items">
                                                         <li class="elementor-icon-list-item">
-                                                            <a href="contact-us/"> <span class="elementor-icon-list-icon">
+                                                            <a href="contact-us"> <span class="elementor-icon-list-icon">
 							<i class="fa fa-caret-right" aria-hidden="true"></i>
 						</span>
                                                                 <span class="elementor-icon-list-text">Contact Us</span>
@@ -785,7 +785,7 @@ $tahun = date("Y");
 
 <script type="text/javascript">
 function googleTranslateElementInit() {
-  new google.translate.TranslateElement({pageLanguage: 'ina'}, 'google_translate_element');
+  new google.translate.TranslateElement({pageLanguage: 'id', includedLanguages : 'ar,en,id'}, 'google_translate_element');
 }
 </script>
 
