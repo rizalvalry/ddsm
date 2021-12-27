@@ -134,7 +134,7 @@
 									$jumlah_hal27 = ceil ($row27/$batas);
 								?>
 								
-								<li class="<?php if ( $_GET['hallabel'] <= 1 ) echo "disabled"; ?>"><a href="hallabel-<?php echo $_GET['id']; ?>-<?php echo $_GET['hallabel'] - 1; ?>"><span class="badge"><i style="font-size:24px" class="fa">«</i></span></a></li>
+								<li style="<?php if ( $_GET['hallabel'] <= 1 ) echo "display:none"; ?>"><a href="hallabel-<?php echo $_GET['id']; ?>-<?php echo $_GET['hallabel'] - 1; ?>"><span class="badge"><i style="font-size:24px" class="fa">«</i></span></a></li>
 									<!-- <span class="badge"> -->
 									<?php
 										for ( $i = 1; $i <= $jumlah_hal27; $i++ ){
@@ -146,7 +146,7 @@
 									<?php
 										}
 									?>
-									<li class="<?php if ( $_GET['hallabel'] >= $jumlah_hal27 ) echo "disabled"; ?>"><a href="hallabel-<?php echo $_GET['id']; ?>-<?php echo $_GET['hallabel'] + 1; ?>"><span class="badge"><i style="font-size:24px" class="fa">»</i></span></a></li>
+									<li style="<?php if ( $_GET['hallabel'] >= $jumlah_hal27 ) echo "display:none"; ?>"><a href="hallabel-<?php echo $_GET['id']; ?>-<?php echo $_GET['hallabel'] + 1; ?>"><span class="badge"><i style="font-size:24px" class="fa">»</i></span></a></li>
 								</ul>
 							</center>
 							</div>
