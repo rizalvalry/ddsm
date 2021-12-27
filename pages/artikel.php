@@ -106,7 +106,7 @@
 							<!-- single-banner-start -->
 							<div class="single-banner mb-3">
 								<div class="banner-img">
-									<a href="events-<?php echo $row5['id_artikel']; ?>-<?php echo $row5['judul_seo']; ?>"><img src="gambar/thumb_artikel/<?php echo $row5['gambar']; ?>" class="rounded" alt="banner" style="width:358px; height:250px" /></a>
+									<a href="event-<?php echo $row5['id_artikel']; ?>-<?php echo $row5['judul_seo']; ?>"><img src="gambar/thumb_artikel/<?php echo $row5['gambar']; ?>" class="rounded" alt="banner" style="width:358px; height:250px" /></a>
 								</div>
 								<div class="banner-content-3 wow slideInLeft" data-wow-duration="1.0s" data-wow-delay="2s">
 									<p class="white-text"><?php echo $row5['judul_artikel']; ?></p class="white-text">
